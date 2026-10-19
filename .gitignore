@@ -1,0 +1,27 @@
+# Betriebssystem und Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporäres und Sicherungen
+*.bak
+*.tmp
+*.log
+*~
+__pycache__/
+node_modules/
+
+# Hosting-Werkzeuge
+.wrangler/
+.netlify/
+
+# Keine Schülerdaten und keine Exporte ins Repo
+*.sicherung.json
+*-sicherung*.json
+*-backup*.json
+export/
+exporte/
+sicherung/
+sicherungen/

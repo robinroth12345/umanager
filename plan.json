@@ -1,0 +1,2669 @@
+{
+ "meta": {
+  "stand": "2026-10-18",
+  "schuljahr": "2026/27",
+  "quelle": "02_Vorlagen/STUNDENPLAN_RT.md + README/VERLAUF der Klassenordner",
+  "hinweis": "Stand der Planung aus den Klassenordnern; Erstfassung als Vorschlag."
+ },
+ "zeiten": {
+  "1": "7:30–8:15",
+  "2": "8:20–9:05",
+  "3": "9:20–10:05",
+  "4": "10:10–10:55",
+  "5": "11:05–11:50",
+  "6": "11:55–12:40"
+ },
+ "status": {
+  "gehalten": {
+   "label": "gehalten",
+   "icon": "i-done"
+  },
+  "geplant": {
+   "label": "geplant",
+   "icon": "i-check"
+  },
+  "idee": {
+   "label": "nur Idee / Vorschlag",
+   "icon": "i-bulb"
+  },
+  "offen": {
+   "label": "offen (noch nichts geplant)",
+   "icon": "i-open"
+  }
+ },
+ "faecher": {
+  "Ph-08": {
+   "name": "Physik 8",
+   "klassen": "8a + 8b",
+   "farbe": "#d9822b",
+   "buch": "Impulse Physik 7/8, Kap. 4 Energie",
+   "stand": "Energie: Höhenenergie und Übungsblatt K01-AB04. 8a fertig, Umformen und Rechnen gehen jetzt; 8b wiederholt K01-AB04 am Mo 19.10. (am 16.10. nur Pufferstunde). Leistung und Wirkungsgrad: 8a Di 20.10. mit Treppenrennen, 8b Kurzversion Fr 23.10. Kein Taschenrechner bis zu den Herbstferien.",
+   "naechste": [
+    "Mo 19.10. 8b: K01-AB04 (AB Höhenenergie)",
+    "Di 20.10. 8a: Leistung und Wirkungsgrad, Treppenrennen (K01-S04)",
+    "Fr 23.10. 8a: Übungen Leistung (Rest) + Video Emergenz; 8b: Leistung Kurzversion",
+    "Nach den Ferien: Wirkungsgrad quantitativ, Energiesparen/kWh-Rechnung mit Schülerprodukt, danach Magnetismus (Kap. 5)"
+   ],
+   "soll": null,
+   "puffer": null
+  },
+  "Ph-09": {
+   "name": "Physik 9",
+   "klassen": "9c",
+   "farbe": "#2f8f83",
+   "buch": "Dorn-Bader 9/10, Kap. 1 Elektrizität",
+   "stand": "Elektrizitätslehre: Kennlinien und Leiterwiderstand gehalten. Reihen- und Parallelschaltung in drei Stunden (S07 bis S09) geplant.",
+   "naechste": [
+    "S07 Do 15.10.: Reihenschaltung, Praktikum bei 6 V",
+    "S08 Mo 19.10.: Parallelschaltung, Praktikum bei 4 V",
+    "S09 Do 22.10.: Übungsstunde",
+    "Nach S07 prüfen: Messbereiche (60 mA, 6 V) und Gerätezahl"
+   ],
+   "soll": null,
+   "puffer": null
+  },
+  "Ph-10": {
+   "name": "Physik 10",
+   "klassen": "10b",
+   "farbe": "#7a5bc7",
+   "buch": "Dorn-Bader 9/10, Kap. 6 Kinematik",
+   "stand": "Kinematik: beschleunigte Bewegung (Buch 6.3). Do 15.10. AIS.chat-Bots (Fehlerdetektiv besser als Mika), Fr 16.10. Vernier-Praktikum (lief wegen Motivation schlecht, nur Seite 1). Do 22.10. Theorie a = konstant + Graphen nachfahren, Fr 23.10. Übung Kinematik. Danach Herbstferien; Dynamik gemeinsam planen.",
+   "naechste": [
+    "Do 22.10.: K01-S08 Kurzwiederholung a = konstant (Folie), Rückseite AB04 als Theorie, AB05 Graphen nachfahren",
+    "Fr 23.10.: Übung Kinematik, K01-AB06 (gebaut; Buch-Kurzlösungen am PDF abgleichen)",
+    "Nach den Ferien: Übergang zur Dynamik gemeinsam planen (Kraftstoß); Jahresplanung abgleichen"
+   ],
+   "soll": null,
+   "puffer": null
+  },
+  "M-05": {
+   "name": "Mathe 5",
+   "klassen": "5b",
+   "farbe": "#2c5fb3",
+   "buch": "Lambacher Schweizer 5, Kap. I Natürliche Zahlen",
+   "stand": "Kapitel I bis I.7 gehalten, Training Grundrechenarten Do 15.10. Mo 19.10. Kurztest (nur Übersicht, kein Verlauf). Bis zu den Herbstferien: Di 20.10. römische Zahlen und Zweiersystem als Einzelstunden, Do 22.10. Test-Besprechung und Vertiefung; Verlauf geplant.",
+   "naechste": [
+    "Mo 19.10.: HA-Besprechung, danach Kurztest (10 P., ca. 15 min)",
+    "Di 20.10. Std 1+2: I.8 Römische Zahlzeichen und I.9 Zweiersystem (Kopiervorlagen kv_28, kv_32)",
+    "Do 22.10. Std 5+6: Test-Besprechung 15 min, Vertiefung beider Systeme, kleine HA S. 35/7",
+    "Nach den Herbstferien: Rückblick S. 36 und Test S. 37, danach Kapitel II"
+   ],
+   "soll": null,
+   "puffer": null
+  },
+  "IuM-05": {
+   "name": "IuM 5",
+   "klassen": "5b",
+   "farbe": "#c0467a",
+   "buch": "Basiskurs Medienbildung, Kap. 1",
+   "stand": "Buch S. 6–9 (1.1, 1.2) abgeschlossen, Login klappt für alle. Schul-PCs zentral steuerbar, keine Kopfhörer, Videos nur per Beamer. Plan für 1.3 (S. 10–11, zwei Stunden) liegt vor; Vorschlag Kapitel 1 Rest archiviert.",
+   "naechste": [
+    "Di 20.10. Std 4: 1.3 Betriebssystem, Dateien, Passwörter (Verlauf und Arbeitsfolie liegen vor; S. 10/1a Neustart entfällt)",
+    "Danach Stunde 4 und S. 12–15 planen"
+   ],
+   "soll": null,
+   "puffer": null
+  }
+ },
+ "wochen": [
+  {
+   "kw": 42,
+   "von": "2026-10-12",
+   "bis": "2026-10-16"
+  },
+  {
+   "kw": 43,
+   "von": "2026-10-19",
+   "bis": "2026-10-23"
+  }
+ ],
+ "stunden": [
+  {
+   "datum": "2026-10-12",
+   "std": 1,
+   "dauer": 1,
+   "klasse": "5b",
+   "fach": "M-05",
+   "kurz": "I.5 Multiplizieren",
+   "thema": "I.5 Multiplizieren (45 min); HA-Besprechung S. 20–23 per Beamer",
+   "status": "gehalten",
+   "ab": false,
+   "material": [
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S05-S07_Multiplizieren_Dividieren_2026-10-12_13.html"
+   ]
+  },
+  {
+   "datum": "2026-10-12",
+   "std": 2,
+   "dauer": 1,
+   "klasse": "9c",
+   "fach": "Ph-09",
+   "kurz": "S06 Leiterwiderstand",
+   "thema": "K01-S06 Widerstand eines Drahtes: Lesen und Modell (Buch S. 19–22)",
+   "status": "gehalten",
+   "ab": false,
+   "notiz": "Rückmeldung: Auftrag zu kleinschrittig und zu viel, künftig kürzer.",
+   "material": [
+    "Physik/Ph-09_2026-27/STUNDENVERLAEUFE/K01-S06_Leiterwiderstand_Modell_2026-10-12.html",
+    "Physik/Ph-09_2026-27/STUNDENVERLAEUFE/K01-S06_Leseauftrag_Leiterwiderstand_2026-10-12.html"
+   ]
+  },
+  {
+   "datum": "2026-10-12",
+   "std": 5,
+   "dauer": 1,
+   "klasse": "8b",
+   "fach": "Ph-08",
+   "kurz": "Herleitung Höhenenergie",
+   "thema": "Herleitung Höhenenergie E_H = m·g·h (Tafelbild I.4)",
+   "status": "gehalten",
+   "ab": false,
+   "material": [
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S02_Einheiten_und_Hoehenenergie_2026-10-05.html"
+   ]
+  },
+  {
+   "datum": "2026-10-13",
+   "std": 1,
+   "dauer": 2,
+   "klasse": "5b",
+   "fach": "M-05",
+   "kurz": "I.6/I.7 Dividieren",
+   "thema": "Doppelstunde: I.6 Dividieren, I.7 Schriftliches Dividieren",
+   "status": "gehalten",
+   "ab": false,
+   "notiz": "Einstieg und Tafelbild brauchten etwa eine Einzelstunde; Arbeitsphase Dividieren daher in einer Einzelstunde.",
+   "material": [
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S05-S07_Multiplizieren_Dividieren_2026-10-12_13.html",
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S06-S07_Arbeitsphase_Dividieren.html"
+   ]
+  },
+  {
+   "datum": "2026-10-13",
+   "std": 4,
+   "dauer": 1,
+   "klasse": "5b",
+   "fach": "IuM-05",
+   "kurz": "Kapitel 1",
+   "thema": "Basiskurs Medienbildung, Kapitel 1 (S. 6–9 behandelt)",
+   "status": "gehalten",
+   "ab": false,
+   "notiz": "Inhalt dieser Stunde ist in README/VERLAUF nicht einzeln vermerkt.",
+   "material": []
+  },
+  {
+   "datum": "2026-10-13",
+   "std": 6,
+   "dauer": 1,
+   "klasse": "8a",
+   "fach": "Ph-08",
+   "kurz": "S03 Übungen Höhenenergie",
+   "thema": "K01-S03 Übungen zur Höhenenergie mit K01-AB04",
+   "status": "gehalten",
+   "ab": true,
+   "notiz": "Nur Block 1 (a bis d) erreicht, nur gemeinsam. Probleme: Weg Formel–Einsetzen–Ergebnis, Einheiten, Umformen. HA: Formeln und Präfixe wie Vokabeln lernen.",
+   "material": [
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S03_Uebungen_Hoehenenergie_2026-10-13.html",
+    "Physik/Ph-08_2026-27/ARBEITSBLAETTER/K01-AB04_Hoehenenergie_Ueben.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-15",
+   "std": 2,
+   "dauer": 1,
+   "klasse": "10b",
+   "fach": "Ph-10",
+   "kurz": "AIS.chat-Bots",
+   "thema": "AIS.chat-Stunde: Fehlerdetektiv und Erklär-es-Mika (je ca. 15 min, GPT-5.5)",
+   "status": "gehalten",
+   "ab": false,
+   "notiz": "Rückmeldung: Fehlerdetektiv klar besser als Mika (Mika unglaubwürdig, wenn die Schüler nicht weiterwissen); gut die Hälfte fühlte sich stärker aktiviert. Geräte: Tablets/eigene Geräte, höchstens zu zweit. Ergebnissicherung im Übungsheft, Word-Download des Chatverlaufs am Ende, Sammel-QR-Code, danach löschen. Kurzprüfung ohne Gerät.",
+   "material": [
+    "AIS.chat-Bots/Ph-10_Fehlerdetektiv_Kinematik_2026-10-13.md",
+    "AIS.chat-Bots/Ph-10_Erklaer_es_Mika_Kinematik_2026-10-13.md",
+    "AIS.chat-Bots/Ph-10_Fehlerdetektiv_und_Mika_META_2026-10-13.md"
+   ]
+  },
+  {
+   "datum": "2026-10-15",
+   "std": 4,
+   "dauer": 1,
+   "klasse": "9c",
+   "fach": "Ph-09",
+   "kurz": "S07 Reihenschaltung",
+   "thema": "K01-S07 Reihenschaltung mit Praktikum bei 6 V (Raum 115)",
+   "status": "gehalten",
+   "ab": true,
+   "notiz": "Lief gut, Umfang knapp, aber passend. Zeigeranzeige und Messbereich-Umrechnung entfallen künftig.",
+   "material": [
+    "Physik/Ph-09_2026-27/STUNDENVERLAEUFE/K01-S07_Reihenschaltung_2026-10-15.html",
+    "Physik/Ph-09_2026-27/STUNDENVERLAEUFE/K01-S07_Reihenschaltung_2026-10-15_Folien.html",
+    "Physik/Ph-09_2026-27/ARBEITSBLAETTER/K01-AB04_PRAKT_Reihenschaltung.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-15",
+   "std": 5,
+   "dauer": 2,
+   "klasse": "5b",
+   "fach": "M-05",
+   "kurz": "S07 Training Grundrechenarten",
+   "thema": "Doppelstunde: Std 1 HA-Besprechung (S. 26/11, 30/13) und Division an der Tafel; Std 2 Üben quer durch alle Grundrechenarten (30 min)",
+   "status": "geplant",
+   "ab": false,
+   "notiz": "Basis S. 35/3a-h; 5a,b; 6. Vertiefung S. 35/3i-l; 5c,d; 12. Puffer gemeinsam S. 35/9a,b; 10a,b. HA S. 35/4a-h; 8a-c; Bonus S. 35/11a-c. Folien liegen vor, ein Arbeitsblatt ist nicht nötig.",
+   "material": [
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S07_Training_Doppelstunde_2026-10-15.html",
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S07_Uebungsphase_Grundrechenarten_2026-10-15.html",
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S06-S07_HA-Loesungen_S26-S30.html"
+   ]
+  },
+  {
+   "datum": "2026-10-16",
+   "std": 1,
+   "dauer": 1,
+   "klasse": "10b",
+   "fach": "Ph-10",
+   "kurz": "S07 Vernier-Praktikum",
+   "thema": "K01-S07 Vernier-Praktikum Messwerterfassung: Versuch A v konstant, Versuch B a konstant",
+   "status": "gehalten",
+   "ab": true,
+   "notiz": "Lief wegen Motivation (Fr 5. Std., bekannte Physik) schlecht, nur Seite 1 geschafft; Blatt gut. 8 Experimentiersätze (Fahrbahn, Wagen, Ultraschallsensor, LabQuest 2). Vorher Menüführung prüfen und Probeaufbau. Puffer: Graphen nachfahren (AB05).",
+   "material": [
+    "Physik/Ph-10_2026-27/STUNDENVERLAEUFE/K01-S07_Praktikum_Messwerterfassung_2026-10-16.html",
+    "Physik/Ph-10_2026-27/ARBEITSBLAETTER/K01-AB04_PRAKT_Messwerterfassung_Fahrbahn.pdf",
+    "Physik/Ph-10_2026-27/ARBEITSBLAETTER/K01-AB05_PRAKT_Graphen_nachfahren.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-16",
+   "std": 2,
+   "dauer": 1,
+   "klasse": "8a",
+   "fach": "Ph-08",
+   "kurz": "S03 Rest AB04",
+   "thema": "Kurze Formelwiederholung, dann Rest von K01-AB04 Höhenenergie",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "Zusatz bei Umform-Schwierigkeiten: K01-AB05_Umformen_Ueben (auch _TR).",
+   "material": [
+    "Physik/Ph-08_2026-27/ARBEITSBLAETTER/K01-AB04_Hoehenenergie_Ueben.pdf",
+    "Physik/Ph-08_2026-27/ARBEITSBLAETTER/K01-AB05_Umformen_Ueben.pdf",
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S03_Uebungen_Hoehenenergie_2026-10-13.html"
+   ]
+  },
+  {
+   "datum": "2026-10-16",
+   "std": 5,
+   "dauer": 1,
+   "klasse": "8b",
+   "fach": "Ph-08",
+   "kurz": "S03 Übungen komplett",
+   "thema": "K01-S03 Übungen Höhenenergie: K01-AB04 in der Einzelstunde komplett",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "Danach sind 8a und 8b wieder auf gleichem Stand. Tafelaufgaben aus S02 sind in keiner Klasse gerechnet; S03 deckt sie ab.",
+   "material": [
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S03_Uebungen_Hoehenenergie_2026-10-13.html",
+    "Physik/Ph-08_2026-27/ARBEITSBLAETTER/K01-AB04_Hoehenenergie_Ueben.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-19",
+   "std": 1,
+   "dauer": 1,
+   "klasse": "5b",
+   "fach": "M-05",
+   "kurz": "HA-Besprechung + Kurztest",
+   "thema": "Hausaufgaben besprechen, danach unangekündigter Kurztest (10 P., ca. 15 min, kein Taschenrechner)",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "Kurztest (Titel „Kurztest“) mit Lösung (Handschrift) liegt vor; A3 421 · 106, A4 9756 : 18 (wie Training S. 35/4 c, g). Kein eigener Stundenverlauf (Robin 2026-10-18). Notenfeld erst beim nächsten Test.",
+   "material": [
+    "Mathe/M-05_2026-27/TESTS/K01-S07_Kurztest_Hausaufgaben_2026-10-19.pdf",
+    "Mathe/M-05_2026-27/TESTS/K01-S07_Kurztest_Hausaufgaben_2026-10-19_Lsg.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-19",
+   "std": 2,
+   "dauer": 1,
+   "klasse": "9c",
+   "fach": "Ph-09",
+   "kurz": "S08 Parallelschaltung",
+   "thema": "K01-S08 Parallelschaltung mit Praktikum bei 3 V (Raum 113)",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "R1 = 100 Ω, R2 = 50 Ω. AB05 nur mit Messwerttabelle, ohne Zeiger und Messbereich, ohne Lösungsstreifen. Netzgerät höchstens 3 V.",
+   "material": [
+    "Physik/Ph-09_2026-27/STUNDENVERLAEUFE/K01-S08_Parallelschaltung_2026-10-19.html",
+    "Physik/Ph-09_2026-27/STUNDENVERLAEUFE/K01-S08_Parallelschaltung_2026-10-19_Folien.html",
+    "Physik/Ph-09_2026-27/ARBEITSBLAETTER/K01-AB05_PRAKT_Parallelschaltung.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-19",
+   "std": 5,
+   "dauer": 1,
+   "klasse": "8b",
+   "fach": "Ph-08",
+   "kurz": "AB Höhenenergie",
+   "thema": "K01-AB04 Höhenenergie (Übungsblatt) mit kurzer Wiederholung Schreibweise m/M/mJ/MJ und Doppelbrüche in Einheiten",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "8b hatte am 16.10. nur eine Pufferstunde (halbe Klasse fehlte). Ziel: gleicher Stand wie 8a. Zusatz bei Umform-Schwierigkeiten: K01-AB05.",
+   "material": [
+    "Physik/Ph-08_2026-27/ARBEITSBLAETTER/K01-AB04_Hoehenenergie_Ueben.pdf",
+    "Physik/Ph-08_2026-27/ARBEITSBLAETTER/K01-AB05_Umformen_Ueben.pdf",
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S03_Uebungen_Hoehenenergie_2026-10-13.html"
+   ]
+  },
+  {
+   "datum": "2026-10-20",
+   "std": 1,
+   "dauer": 2,
+   "klasse": "5b",
+   "fach": "M-05",
+   "kurz": "I.8 Römische Zahlen, I.9 Zweiersystem",
+   "thema": "Doppelstunde als zwei Einzelstunden: I.8 Römische Zahlzeichen (S. 31–32), I.9 Das Zweiersystem (S. 33–34); Übungsphasen kurz (ca. 12 min)",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "Kopiervorlagen: 733154_k01_kv_28 (Römische Zahlzeichen) und 733154_k01_kv_32 (Zweiersystem von Leibniz) aus BUCH_LS-05/ARBEITSBLAETTER, Robin hat beide Blätter am 2026-10-18 gefunden und gedruckt. Hinweis: Lösungsheft S. 32/3 nennt 14. Juli 1776, die Tafel der Statue zeigt JULY IV (4. Juli).",
+   "material": [
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S08-S09_Roemische_Zahlen_Zweiersystem_2026-10-20_22.html",
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S08-S09_Uebungsfolie_2026-10-20.html"
+   ]
+  },
+  {
+   "datum": "2026-10-20",
+   "std": 4,
+   "dauer": 1,
+   "klasse": "5b",
+   "fach": "IuM-05",
+   "kurz": "1.3 Betriebssystem, Dateien, Passwörter",
+   "thema": "Kapitel 1.3 (S. 10–11), Stunde 3: Betriebssystem, Dateien, Passwörter, am PC",
+   "status": "geplant",
+   "ab": false,
+   "notiz": "Schul-PCs zentral steuerbar, keine Kopfhörer, Videos nur über Beamer. S. 10/1a Neustart entfällt.",
+   "material": [
+    "Medien/IuM-05_2026-27/STUNDENVERLAEUFE/K01-S03-S04_Betriebssystem_Dateien_Passwoerter_2026-10-20.html",
+    "Medien/IuM-05_2026-27/STUNDENVERLAEUFE/K01-S03-S04_Betriebssystem_Dateien_Passwoerter_2026-10-20_Arbeitsfolie.html"
+   ]
+  },
+  {
+   "datum": "2026-10-20",
+   "std": 6,
+   "dauer": 1,
+   "klasse": "8a",
+   "fach": "Ph-08",
+   "kurz": "Leistung, Treppenrennen",
+   "thema": "K01-S04 Leistung und Wirkungsgrad: 10 min Tafelbild I.5, 15 min Treppenrennen, 5 min Besprechung (Masse gegen Zeit), Rest Übungen",
+   "status": "geplant",
+   "ab": false,
+   "notiz": "Kein Arbeitsblatt, nur Tafelanschrieb und Heft. Übungen sind Puffer für Fr 23.10.",
+   "material": [
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S04_Leistung_Wirkungsgrad_Treppenrennen_2026-10-20.html",
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S04_Uebungen_Leistung_Wirkungsgrad_2026-10-20_Arbeitsfolie.html"
+   ]
+  },
+  {
+   "datum": "2026-10-22",
+   "std": 2,
+   "dauer": 1,
+   "klasse": "10b",
+   "fach": "Ph-10",
+   "kurz": "S08 Theorie a konstant + Graphen nachfahren",
+   "thema": "K01-S08: 8 min Kurzwiederholung a = konstant (Arbeitsfolie), 14 min Rückseite AB04 als Theorie (Vorhersage, dann Daten von der Folie), 20 min AB05 Graphen nachfahren zu zweit, 3 min Abschluss",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "Beim Nachfahren leichter Wettbewerb gegen den Ziel-Graphen (Motivation). Sensor und LabQuest 2 reichen, Fahrbahn bleibt im Schrank. Letzte Do-Stunde vor den Herbstferien.",
+   "material": [
+    "Physik/Ph-10_2026-27/STUNDENVERLAEUFE/K01-S08_Theorie_a_konstant_und_Graphen_nachfahren_2026-10-22.html",
+    "Physik/Ph-10_2026-27/STUNDENVERLAEUFE/K01-S08_Kurzwiederholung_a_konstant_2026-10-22_Arbeitsfolie.html",
+    "Physik/Ph-10_2026-27/ARBEITSBLAETTER/K01-AB04_PRAKT_Messwerterfassung_Fahrbahn.pdf",
+    "Physik/Ph-10_2026-27/ARBEITSBLAETTER/K01-AB05_PRAKT_Graphen_nachfahren.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-22",
+   "std": 4,
+   "dauer": 1,
+   "klasse": "9c",
+   "fach": "Ph-09",
+   "kurz": "S09 Übungen Schaltungen",
+   "thema": "K01-S09 Übungsstunde Reihen- und Parallelschaltung (Raum 115)",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "Pflicht Blöcke 1 und 2, Block 3 Wahl, Block 4 Knacker mit Lösungsstreifen. Umformen vorab kurz üben. Letzte Stunde vor den Herbstferien.",
+   "material": [
+    "Physik/Ph-09_2026-27/STUNDENVERLAEUFE/K01-S09_Uebungen_Schaltungen_2026-10-22.html",
+    "Physik/Ph-09_2026-27/ARBEITSBLAETTER/K01-AB06_Schaltungen_Ueben.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-22",
+   "std": 5,
+   "dauer": 2,
+   "klasse": "5b",
+   "fach": "M-05",
+   "kurz": "Test-Besprechung + Vertiefung I.8/I.9",
+   "thema": "Std 5: Kurztest besprechen (15 min), römische Zahlen vertiefen; Std 6: Zweiersystem vertiefen (Holzstäbe, Zauberkarten); kleine HA S. 35/7 a–d",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "Optional kv_30 Römisches Domino (noch nicht gedruckt). Keine Lösungsfolien gebaut (auf Auftrag).",
+   "material": [
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S08-S09_Roemische_Zahlen_Zweiersystem_2026-10-20_22.html",
+    "Mathe/M-05_2026-27/STUNDENVERLAEUFE/K01-S09_Uebungsfolie_2026-10-22.html"
+   ]
+  },
+  {
+   "datum": "2026-10-23",
+   "std": 1,
+   "dauer": 1,
+   "klasse": "10b",
+   "fach": "Ph-10",
+   "kurz": "Übung Kinematik",
+   "thema": "Übungsstunde zur ganzen Kinematik: K01-AB06 (gleichförmig, Diagramme, beschleunigt, Knacker Anhalteweg), freiwillige Vertiefung im Buch S. 178f und S. 186f",
+   "status": "geplant",
+   "ab": true,
+   "notiz": "AB06 gebaut (PDF, Lösungs-PDF, Lösungs-HTML). Buch-Kurzlösungen (gedreht am Blattende) am Lösungs-PDF abgleichen. Letzte Stunde vor den Herbstferien.",
+   "material": [
+    "Physik/Ph-10_2026-27/ARBEITSBLAETTER/K01-AB06_Kinematik_Ueben.pdf",
+    "Physik/Ph-10_2026-27/ARBEITSBLAETTER/K01-AB06_Kinematik_Ueben_Lsg.pdf"
+   ]
+  },
+  {
+   "datum": "2026-10-23",
+   "std": 2,
+   "dauer": 1,
+   "klasse": "8a",
+   "fach": "Ph-08",
+   "kurz": "Übungen Leistung (Rest) + Video Emergenz",
+   "thema": "Übungen Leistung (Rest) und 100-Sekunden-Video Emergenz",
+   "status": "geplant",
+   "ab": false,
+   "material": [
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S04_Uebungen_Leistung_Wirkungsgrad_2026-10-20_Arbeitsfolie.html"
+   ]
+  },
+  {
+   "datum": "2026-10-23",
+   "std": 5,
+   "dauer": 1,
+   "klasse": "8b",
+   "fach": "Ph-08",
+   "kurz": "Leistung (Kurzversion)",
+   "thema": "K01-S04 Leistung kompakt (Kurzversion des 8a-Verlaufs): Tafelbild, kurzer Treppenversuch, Übungen",
+   "status": "geplant",
+   "ab": false,
+   "material": [
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S04_Leistung_Kurzversion_8b_2026-10-23.html",
+    "Physik/Ph-08_2026-27/STUNDENVERLAEUFE/K01-S04_Uebungen_Leistung_Wirkungsgrad_2026-10-20_Arbeitsfolie.html"
+   ]
+  }
+ ],
+ "stoff": {
+  "wochen": 35,
+  "hinweis": "Stoffverteilung als Vorschlag. Reihenfolge, Themen und Bildungsplan-Bezüge der Physik stammen aus dem Schulcurriculum Physik (Stand 09/2026), Stundenzahlen je Abschnitt verteilt Claude innerhalb der Curriculum-Stunden je Themenbereich. Mathe nach Lambacher Schweizer 5, IuM nach der bestehenden Stoffverteilung. Alles lässt sich in der Übersicht ändern.",
+  "faecher": {
+   "Ph-08": {
+    "jahrgang": "Klasse 8",
+    "stdProWoche": 2,
+    "quelle": "Schulcurriculum Physik 2026-09, Klasse 8 (Impulse Physik 7/8)",
+    "bereiche": [
+     {
+      "id": "e",
+      "t": "Energie",
+      "curr": 14
+     },
+     {
+      "id": "m",
+      "t": "Magnetismus",
+      "curr": 8
+     },
+     {
+      "id": "el",
+      "t": "Elektrizität",
+      "curr": 20
+     }
+    ],
+    "bloecke": [
+     {
+      "id": "p8-41",
+      "b": "e",
+      "t": "Energie im Alltag",
+      "std": 1,
+      "ref": "Impulse 4.1",
+      "inhalt": "Energieformen, Energieübertragungsketten, Energieträger",
+      "bp": [
+       "3.2.3(2)",
+       "3.2.3(5)"
+      ],
+      "done": true
+     },
+     {
+      "id": "p8-42",
+      "b": "e",
+      "t": "Energieformen",
+      "std": 2,
+      "ref": "Impulse 4.2",
+      "inhalt": "Energieformen",
+      "bp": [
+       "3.2.3(3)"
+      ],
+      "done": true
+     },
+     {
+      "id": "p8-4x1",
+      "b": "e",
+      "t": "Exkurs: Übersicht über die Energieformen",
+      "std": 0,
+      "ref": "Impulse",
+      "inhalt": "Methode: Die Sonne – unsere wichtigste Energiequelle (in 4.2 integriert)",
+      "bp": [
+       "3.2.3(3)"
+      ],
+      "done": true
+     },
+     {
+      "id": "p8-43",
+      "b": "e",
+      "t": "Speicherung und Übertragung von Energie",
+      "std": 2,
+      "ref": "Impulse 4.3",
+      "inhalt": "Energieleitung, Konvektion, Strahlung",
+      "bp": [
+       "3.2.3(1)",
+       "3.2.3(2)"
+      ],
+      "done": true
+     },
+     {
+      "id": "p8-44",
+      "b": "e",
+      "t": "Energie messen und vergleichen",
+      "std": 2,
+      "ref": "Impulse 4.4",
+      "inhalt": "1 Joule, Leistung, P = ΔE/Δt, 1 Watt, 1 kWh; Methoden: Dein Energiebedarf, Sorgsamer Umgang mit Energie",
+      "bp": [
+       "3.2.3(7)",
+       "3.2.3(8)"
+      ],
+      "prakt": "Energiemessgeräte (Sammlung) zu Hause messen",
+      "note": "Einheiten (J, kWh) gehalten; Leistung/Treppenrennen ab 20.10."
+     },
+     {
+      "id": "p8-45",
+      "b": "e",
+      "t": "Energieerhaltung",
+      "std": 1,
+      "ref": "Impulse 4.5",
+      "inhalt": "Prinzip der Energieerhaltung, Energieübertragungsketten",
+      "bp": [
+       "3.2.3(1)",
+       "3.2.3(2)"
+      ]
+     },
+     {
+      "id": "p8-46",
+      "b": "e",
+      "t": "Lageenergie",
+      "std": 2,
+      "ref": "Impulse 4.6",
+      "inhalt": "Nullniveau, E_L = m·g·h",
+      "bp": [
+       "3.2.3(6)"
+      ],
+      "note": "läuft: Übungen K01-AB04 (8a, 8b bis 16.10.)"
+     },
+     {
+      "id": "p8-47",
+      "b": "e",
+      "t": "Energieentwertung",
+      "std": 1,
+      "ref": "Impulse 4.7",
+      "inhalt": "Energieentwertung als Erwärmung der Umgebung",
+      "bp": [
+       "3.2.3(10)"
+      ],
+      "prakt": "Fächerverbindend Ch 7/2: Kugelteilchenmodell, Phasenübergänge",
+      "done": true
+     },
+     {
+      "id": "p8-48",
+      "b": "e",
+      "t": "Der Wirkungsgrad",
+      "std": 2,
+      "ref": "Impulse 4.8",
+      "inhalt": "η = P_Nutzen / P_Aufwand",
+      "bp": [
+       "3.2.3(9)"
+      ]
+     },
+     {
+      "id": "p8-4x2",
+      "b": "e",
+      "t": "Exkurs: Energieversorgung durch Wasserkraftwerke",
+      "std": 1,
+      "ref": "Impulse",
+      "bp": [
+       "3.2.3(4)"
+      ]
+     },
+     {
+      "id": "p8-4x3",
+      "b": "e",
+      "t": "Exkurs: Leistung im Alltag",
+      "std": 0,
+      "ref": "Impulse",
+      "inhalt": "optional, bei Bedarf an 4.4 anschließen",
+      "bp": [
+       "3.2.3(8)"
+      ]
+     },
+     {
+      "id": "p8-51",
+      "b": "m",
+      "t": "Wirkung von Magneten",
+      "std": 1,
+      "ref": "Impulse 5.1",
+      "inhalt": "Pole, Eisen, Cobalt, Nickel",
+      "bp": [
+       "3.2.4(1)"
+      ]
+     },
+     {
+      "id": "p8-52",
+      "b": "m",
+      "t": "Pole von Magneten",
+      "std": 2,
+      "ref": "Impulse 5.2",
+      "inhalt": "Nord-, Südpol, Anziehung, Abstoßung; Methoden: Das schreibe ich mir auf, Geheimnis Magnet",
+      "bp": [
+       "3.2.4(1)"
+      ],
+      "prakt": "Schülermagnete (Sammlung)"
+     },
+     {
+      "id": "p8-53",
+      "b": "m",
+      "t": "Modell von Magneten",
+      "std": 1,
+      "ref": "Impulse 5.3",
+      "inhalt": "Magnetnadel, Magnetisierung, Elementarmagnete",
+      "bp": [
+       "3.2.4(1)"
+      ]
+     },
+     {
+      "id": "p8-54",
+      "b": "m",
+      "t": "Das Magnetfeld",
+      "std": 2,
+      "ref": "Impulse 5.4",
+      "inhalt": "Magnetfeldlinien, Magnetfeldwirkung",
+      "bp": [
+       "3.2.4(1)",
+       "3.2.4(4)"
+      ]
+     },
+     {
+      "id": "p8-5x1",
+      "b": "m",
+      "t": "Exkurs: Unsere Erde hat ein Magnetfeld",
+      "std": 1,
+      "ref": "Impulse",
+      "bp": [
+       "3.2.4(1)"
+      ]
+     },
+     {
+      "id": "p8-5x2",
+      "b": "m",
+      "t": "Exkurs: Den richtigen Weg finden",
+      "std": 1,
+      "ref": "Impulse",
+      "bp": [
+       "3.2.4(1)"
+      ]
+     },
+     {
+      "id": "p8-61",
+      "b": "el",
+      "t": "Elemente des Stromkreises",
+      "std": 1,
+      "ref": "Impulse 6.1",
+      "inhalt": "Quellen, Schalter, Nutzer, Stromkreis, Leitungen, Pole, Spannung, Leiter, Isolator; Methode: Von der Schaltung zur Skizze",
+      "bp": [
+       "3.2.5(1)",
+       "3.2.5(2)",
+       "3.2.5(5)"
+      ]
+     },
+     {
+      "id": "p8-62",
+      "b": "el",
+      "t": "Parallel- und Reihenschaltung",
+      "std": 3,
+      "ref": "Impulse 6.2",
+      "inhalt": "Methoden: Schaltungen mit mehreren Schaltern, Elektrische Schaltungen",
+      "bp": [
+       "3.2.5(5)",
+       "3.2.5(7)"
+      ],
+      "prakt": "Einfache Schaltungen (R 113)"
+     },
+     {
+      "id": "p8-63",
+      "b": "el",
+      "t": "Wirkungen des Stromes",
+      "std": 1,
+      "ref": "Impulse 6.3",
+      "inhalt": "Elektromagnet, Wärmewirkung, Lichtwirkung",
+      "bp": [
+       "3.2.5(10)"
+      ]
+     },
+     {
+      "id": "p8-6x1",
+      "b": "el",
+      "t": "Exkurs: Elektrischer Strom ist gefährlich",
+      "std": 1,
+      "ref": "Impulse",
+      "bp": [
+       "3.2.5(11)"
+      ]
+     },
+     {
+      "id": "p8-6x2",
+      "b": "el",
+      "t": "Exkurs: Ein elektrisches Gerät ist defekt",
+      "std": 0,
+      "ref": "Impulse",
+      "inhalt": "optional",
+      "bp": [
+       "3.2.5(1)",
+       "3.2.5(11)"
+      ]
+     },
+     {
+      "id": "p8-6x3",
+      "b": "el",
+      "t": "Exkurs: Das Magnetfeld einer Spule und seine Anwendungen",
+      "std": 1,
+      "ref": "Impulse",
+      "inhalt": "Methoden: Experimentieren mit Elektromagneten, Sicherungsautomat, Gute und schlechte Leitungen",
+      "bp": [
+       "3.2.4(2)",
+       "3.2.4(3)"
+      ]
+     },
+     {
+      "id": "p8-71",
+      "b": "el",
+      "t": "Energie und Elektrizität",
+      "std": 1,
+      "ref": "Impulse 7.1",
+      "inhalt": "Elektrische Energie, Quellen, Stromkreise",
+      "bp": [
+       "3.2.5(4)",
+       "3.2.5(8)"
+      ]
+     },
+     {
+      "id": "p8-72",
+      "b": "el",
+      "t": "Elektrischer Strom und Ladung",
+      "std": 2,
+      "ref": "Impulse 7.2",
+      "inhalt": "Positive und negative Ladungen, Ladungsträger, Elektronen, statische Ladungen, Elektroskop, Influenz, faradayscher Käfig",
+      "bp": [
+       "3.2.5(3)",
+       "3.2.5(4)"
+      ]
+     },
+     {
+      "id": "p8-73",
+      "b": "el",
+      "t": "Messung der elektrischen Stromstärke",
+      "std": 2,
+      "ref": "Impulse 7.3",
+      "inhalt": "Ladung pro Zeit, 1 Ampere, serielle Messung; ++ I = Q/t (zusätzlich zum Buch); Methoden: Modellvorstellungen, Von der Beobachtung zur Messung",
+      "bp": [
+       "3.2.5(3)",
+       "3.2.5(6)"
+      ]
+     },
+     {
+      "id": "p8-74",
+      "b": "el",
+      "t": "Elektrische Spannung",
+      "std": 2,
+      "ref": "Impulse 7.4",
+      "inhalt": "Spannung als Antrieb, 1 Volt, parallele Messung",
+      "bp": [
+       "3.2.5(3)",
+       "3.2.5(6)"
+      ]
+     },
+     {
+      "id": "p8-7x1",
+      "b": "el",
+      "t": "Exkurs: Der Widerstand",
+      "std": 1,
+      "ref": "Impulse",
+      "inhalt": "1 Ohm, R = U/I",
+      "bp": [
+       "3.2.5(3)"
+      ]
+     },
+     {
+      "id": "p8-7x2",
+      "b": "el",
+      "t": "Exkurs: Parallel- und Reihenschaltung (Multimeter)",
+      "std": 2,
+      "ref": "Impulse",
+      "inhalt": "Methoden: Umgang mit dem Multimeter, Auswertung von Daten und Diagrammen",
+      "bp": [
+       "3.2.5(6)",
+       "3.2.5(7)"
+      ],
+      "prakt": "Multimeter U, I, R (R 113); I-U-Kennlinie (R 113) (LQ2)"
+     },
+     {
+      "id": "p8-75",
+      "b": "el",
+      "t": "Elektrische Energie, Spannung und Stromstärke",
+      "std": 1,
+      "ref": "Impulse 7.5",
+      "inhalt": "ΔE = U·I·Δt",
+      "bp": [
+       "3.2.5(8)"
+      ]
+     },
+     {
+      "id": "p8-76",
+      "b": "el",
+      "t": "Elektrische Energie und Leistung",
+      "std": 2,
+      "ref": "Impulse 7.6",
+      "inhalt": "P = ΔE/Δt = U·I; Methoden: Elektrische Energie, Elektrische Energie und Elektronenbewegung",
+      "bp": [
+       "3.2.5(8)",
+       "3.2.5(9)"
+      ]
+     }
+    ],
+    "bp": {
+     "3.2.3(1)": "grundlegende Eigenschaften der Energie beschreiben (unter anderem Energieerhaltung)",
+     "3.2.3(2)": "Beispiele für Energieübertragungsketten in Alltag und Technik nennen und qualitativ beschreiben (unter anderem anhand von mechanischer, elektrischer oder thermischer Energieübertragung)",
+     "3.2.3(3)": "Beispiele für die Speicherung von Energie in verschiedenen Energieformen in Alltag und Technik nennen und beschreiben (unter anderem Lageenergie, Bewegungsenergie, thermische Energie)",
+     "3.2.3(4)": "Möglichkeiten der Energieversorgung mithilfe von Energieübertragungsketten beschreiben (zum Beispiel Wasserkraftwerk, Kohlekraftwerk)",
+     "3.2.3(5)": "ihre Umgebung hinsichtlich des sorgsamen Umganges mit Energie untersuchen, bewerten und konkrete technische Maßnahmen (zum Beispiel Wahl des Leuchtmittels) sowie Verhaltensregeln ableiten (zum Beispiel Stand-by-Funktion)",
+     "3.2.3(6)": "die Lageenergie berechnen (E = m ⋅ g ⋅ h, Nullniveau)",
+     "3.2.3(7)": "den Zusammenhang von Energie und Leistung beschreiben (P = ΔE/Δt)",
+     "3.2.3(8)": "Größenordnungen typischer Leistungen im Alltag ermitteln und vergleichen (zum Beispiel körperliche Tätigkeiten, Handgenerator, Fahrradergometer, Typenschilder, Leistungsmessgerät, PKW, Solarzelle)",
+     "3.2.3(9)": "den Zusammenhang von zugeführter Energie, nutzbarer Energie und Wirkungsgrad bei Energieübertragungen beschreiben",
+     "3.2.3(10)": "das scheinbare Verschwinden von Energie mit der Umwandlung in thermische Energie erklären",
+     "3.2.4(1)": "Phänomene des Magnetismus experimentell untersuchen und beschreiben (ferromagnetische Materialien, Magnetpole, Anziehung – Abstoßung, Zusammenwirken mehrerer Magnete, Magnetfeld, Feldlinien, Erdmagnetfeld, Kompass)",
+     "3.2.4(2)": "die magnetische Wirkung eines stromdurchflossenen geraden Leiters und einer stromdurchflossenen Spule untersuchen und beschreiben",
+     "3.2.4(3)": "eine einfache Anwendung des Elektromagnetismus funktional beschreiben (zum Beispiel Elektromagnet, Lautsprecher, Elektromotor)",
+     "3.2.4(4)": "die Struktur von Magnetfeldern beschreiben (Feldlinien, Stabmagnet, Hufeisenmagnet, Spule)",
+     "3.2.5(1)": "grundlegende Bauteile eines elektrischen Stromkreises benennen und ihre Funktion beschreiben (unter anderem Schaltsymbole)",
+     "3.2.5(2)": "die elektrische Leitfähigkeit von Stoffen experimentell untersuchen (Leiter, Nichtleiter)",
+     "3.2.5(3)": "qualitativ beschreiben, dass elektrische Ströme einen Antrieb beziehungsweise eine Ursache benötigen und durch Widerstände in ihrer Stärke beeinflusst werden (Stromstärke, Potential, Spannung, Widerstand, Ladung)",
+     "3.2.5(4)": "den elektrischen Stromkreis und grundlegende Vorgänge darin mithilfe von Modellen erklären",
+     "3.2.5(5)": "den Aufbau eines Stromkreises unter Vorgabe einer Schaltskizze durchführen sowie Stromkreise in Form von Schaltskizzen darstellen",
+     "3.2.5(6)": "Stromstärke und Spannung messen",
+     "3.2.5(7)": "in einfachen Reihenschaltungen und Parallelschaltungen Gesetzmäßigkeiten für die Stromstärke und die Spannung beschreiben (Maschenregel, Knotenregel)",
+     "3.2.5(8)": "den Energietransport im elektrischen Stromkreis und den Zusammenhang zwischen Stromstärke, Spannung, Leistung und Energie beschreiben (P = U ⋅ I)",
+     "3.2.5(9)": "physikalische Angaben auf Alltagsgeräten beschreiben (Spannung, Stromstärke, Leistung)",
+     "3.2.5(10)": "die thermische und die magnetische Wirkung des elektrischen Stroms und Anwendungen erläutern",
+     "3.2.5(11)": "Gefahren des elektrischen Stroms beschreiben sowie Maßnahmen zum Schutz erklären (zum Beispiel Sicherung, Schutzleiter)"
+    }
+   },
+   "Ph-09": {
+    "jahrgang": "Klasse 9",
+    "stdProWoche": 2,
+    "quelle": "Schulcurriculum Physik 2026-09, Klasse 9 (Dorn-Bader 9/10)",
+    "bereiche": [
+     {
+      "id": "d",
+      "t": "Denk- und Arbeitsweisen",
+      "curr": 0
+     },
+     {
+      "id": "em",
+      "t": "Elektromagnetismus",
+      "curr": 22
+     },
+     {
+      "id": "wl",
+      "t": "Wärmelehre",
+      "curr": 12
+     },
+     {
+      "id": "sm",
+      "t": "Struktur der Materie",
+      "curr": 16
+     }
+    ],
+    "bloecke": [
+     {
+      "id": "p9-d",
+      "b": "d",
+      "t": "Denk- und Arbeitsweisen der Physik",
+      "std": 0,
+      "inhalt": "Beobachtung/Erklärung, Überprüfbarkeit, Modelle, SI-Einheiten; durchgängig integriert",
+      "bp": [
+       "3.3.1(1)",
+       "3.3.1(2)",
+       "3.3.1(3)",
+       "3.3.1(4)"
+      ]
+     },
+     {
+      "id": "p9-e1",
+      "b": "em",
+      "t": "Reihen- und Parallelschaltung: Gesetze für Stromstärke und Spannung",
+      "std": 4,
+      "ref": "Dorn-Bader 9/10 Kap. 1",
+      "inhalt": "Maschen- und Knotenregel nur als Info; Merksätze über I_ges",
+      "bp": [
+       "3.3.2(1)"
+      ],
+      "note": "S07 gehalten (15.10.), S08 19.10., S09 22.10."
+     },
+     {
+      "id": "p9-e2",
+      "b": "em",
+      "t": "Widerstand R = U/I, Kennlinien, Leiterwiderstand",
+      "std": 5,
+      "ref": "Dorn-Bader 9/10 Kap. 1",
+      "inhalt": "Kennlinien Ohmscher Widerstand und Glühlampe; R von Länge, Querschnitt, Material",
+      "bp": [
+       "3.3.2(2)",
+       "3.3.2(3)"
+      ],
+      "done": true
+     },
+     {
+      "id": "p9-e3",
+      "b": "em",
+      "t": "Reihen- und Parallelschaltung zweier Widerstände: R_ges",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 1",
+      "inhalt": "R_ges = R₁ + R₂; 1/R_ges = 1/R₁ + 1/R₂",
+      "bp": [
+       "3.3.2(4)"
+      ]
+     },
+     {
+      "id": "p9-e4",
+      "b": "em",
+      "t": "Elektronische Bauteile: Halbleiter, Diode, LED, NTC, LDR",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 1",
+      "inhalt": "Kennlinien funktional beschreiben, Anwendungen",
+      "bp": [
+       "3.3.2(9)"
+      ]
+     },
+     {
+      "id": "p9-e5",
+      "b": "em",
+      "t": "Elektromagnetische Induktion",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 1",
+      "inhalt": "qualitativ untersuchen und beschreiben",
+      "bp": [
+       "3.3.2(5)"
+      ]
+     },
+     {
+      "id": "p9-e6",
+      "b": "em",
+      "t": "Generator, Transformator, elektrische Energieversorgung",
+      "std": 4,
+      "ref": "Dorn-Bader 9/10 Kap. 1",
+      "inhalt": "Gleich-/Wechselspannung, Stromnetz, Angaben auf Alltagsgeräten",
+      "bp": [
+       "3.3.2(6)",
+       "3.3.2(7)",
+       "3.3.2(8)"
+      ]
+     },
+     {
+      "id": "p9-w1",
+      "b": "wl",
+      "t": "Temperaturskalen und Ausdehnung",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 2",
+      "inhalt": "Celsius und Kelvin, absoluter Nullpunkt, Ausdehnung fester, flüssiger, gasförmiger Stoffe",
+      "bp": [
+       "3.3.3(1)",
+       "3.3.3(2)"
+      ]
+     },
+     {
+      "id": "p9-w2",
+      "b": "wl",
+      "t": "Thermische Energie: ΔE = c·m·ΔT",
+      "std": 4,
+      "ref": "Dorn-Bader 9/10 Kap. 2",
+      "inhalt": "Änderung der thermischen Energie bei Temperaturänderung",
+      "bp": [
+       "3.3.3(3)"
+      ]
+     },
+     {
+      "id": "p9-w3",
+      "b": "wl",
+      "t": "Wärmeübertragung und Anwendungen",
+      "std": 4,
+      "ref": "Dorn-Bader 9/10 Kap. 2",
+      "inhalt": "Konvektion, Wärmestrahlung, Wärmeleitung; Dämmung, Heizung, Wärmeschutzverglasung",
+      "bp": [
+       "3.3.3(4)",
+       "3.3.3(5)"
+      ]
+     },
+     {
+      "id": "p9-w4",
+      "b": "wl",
+      "t": "Reversible und irreversible Prozesse",
+      "std": 1,
+      "ref": "Dorn-Bader 9/10 Kap. 2",
+      "bp": [
+       "3.3.3(6)"
+      ]
+     },
+     {
+      "id": "p9-s1",
+      "b": "sm",
+      "t": "Aufbau der Materie und des Atoms",
+      "std": 5,
+      "ref": "Dorn-Bader 9/10 Kap. 4",
+      "inhalt": "Atomhülle, Kern, Elektron, Proton, Neutron, Quarks, Kernladungs- und Massenzahl, Isotope",
+      "bp": [
+       "3.3.4(1)"
+      ],
+      "prakt": "Chemie Kl. 8, 1. Hj: Dalton-Atommodell (Anknüpfung)"
+     },
+     {
+      "id": "p9-s2",
+      "b": "sm",
+      "t": "Radioaktivität: Strahlungsarten, Zerfall, Halbwertszeit",
+      "std": 5,
+      "ref": "Dorn-Bader 9/10 Kap. 5",
+      "inhalt": "α-, β-, γ-Strahlung, Kernzerfälle",
+      "bp": [
+       "3.3.4(2)"
+      ]
+     },
+     {
+      "id": "p9-s3",
+      "b": "sm",
+      "t": "Wirkung, Anwendung und Schutz bei ionisierender Strahlung",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 5",
+      "inhalt": "biologische Wirkung, Medizin, Technik, Abschirmung, Endlagerung",
+      "bp": [
+       "3.3.4(3)",
+       "3.3.4(5)",
+       "3.3.4(6)"
+      ]
+     },
+     {
+      "id": "p9-s4",
+      "b": "sm",
+      "t": "Kernspaltung und Kernfusion",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 5",
+      "inhalt": "zum Beispiel Sterne",
+      "bp": [
+       "3.3.4(4)"
+      ]
+     }
+    ],
+    "bp": {
+     "3.3.1(1)": "Kriterien für die Unterscheidung zwischen Beobachtung und Erklärung beschreiben (Beobachtung durch Sinneseindrücke und Messungen, Erklärung durch Gesetze und Modelle)",
+     "3.3.1(2)": "erläutern, dass Aussagen in der Physik grundsätzlich überprüfbar sind (Fragestellung, Hypothese, Experiment, Bestätigung beziehungsweise Widerlegung)",
+     "3.3.1(3)": "die Funktion von Modellen in der Physik erläutern (anhand des Teilchenmodells und der Modellvorstellung von Atomen)",
+     "3.3.1(4)": "die Bedeutung des SI-Einheitensystems erläutern",
+     "3.3.2(1)": "in einfachen Reihenschaltungen und Parallelschaltungen Gesetzmäßigkeiten für Stromstärke und Spannung anwenden und erläutern",
+     "3.3.2(2)": "den Zusammenhang zwischen Stromstärke und Spannung untersuchen und erläutern (Widerstand, R = U/I)",
+     "3.3.2(3)": "Kennlinien experimentell aufzeichnen und interpretieren (zum Beispiel Eisendraht, Graphit, technischer Widerstand) sowie die Abhängigkeit des Widerstandes von Länge, Querschnitt und Material beschreiben",
+     "3.3.2(4)": "die Reihenschaltung und Parallelschaltung zweier Widerstände untersuchen und beschreiben (Rges = R1 + R2; 1/Rges = 1/R1 + 1/R2)",
+     "3.3.2(5)": "die elektromagnetische Induktion qualitativ untersuchen und beschreiben",
+     "3.3.2(6)": "mithilfe der elektromagnetischen Induktion die Funktionsweise von Generator und Transformator qualitativ erklären",
+     "3.3.2(7)": "physikalische Aspekte der elektrischen Energieversorgung beschreiben (Gleichspannung, Wechselspannung, Transformatoren, Stromnetz)",
+     "3.3.2(8)": "physikalische Angaben auf Alltagsgeräten beschreiben („Akkuladung“, Gleichspannung, Wechselspannung)",
+     "3.3.2(9)": "einfache elektronische Bauteile untersuchen, mithilfe ihrer Kennlinien funktional beschreiben und Anwendungen erläutern (zum Beispiel dotierte Halbleiter, Diode, Leuchtdiode, temperaturabhängige Widerstände, lichtabhängige Widerstände)",
+     "3.3.3(1)": "Gemeinsamkeiten und Unterschiede zwischen Celsius-Skala und Kelvin-Skala beschreiben (unter anderem absoluter Nullpunkt)",
+     "3.3.3(2)": "beschreiben, dass sich feste, flüssige und gasförmige Stoffe bei Temperaturerhöhung in der Regel ausdehnen",
+     "3.3.3(3)": "die Änderung der thermischen Energie bei Temperaturänderung beschreiben (ΔE = c⋅m⋅ΔT)",
+     "3.3.3(4)": "die drei thermischen Energieübertragungsarten beschreiben (Konvektion, Wärmestrahlung, Wärmeleitung)",
+     "3.3.3(5)": "technische Anwendungen mit Bezug auf die thermischen Energieübertragungsarten beschreiben (zum Beispiel Dämmung, Heizung, Wärmeschutzverglasung)",
+     "3.3.3(6)": "den Unterschied zwischen reversiblen und irreversiblen Prozessen beschreiben",
+     "3.3.4(1)": "die Struktur der Materie im Überblick beschreiben und den Aufbau des Atoms erläutern (Atomhülle, Atomkern, Elektron, Proton, Neutron, Quarks, Kernladungszahl, Massenzahl, Isotope)",
+     "3.3.4(2)": "Kernzerfälle und ionisierende Strahlung beschreiben (Radioaktivität, α-, β-, γ-Strahlung, Halbwertszeit)",
+     "3.3.4(3)": "biologische Wirkungen und gesundheitliche Folgen ionisierender Strahlung beschreiben sowie medizinische und technische Anwendungen nennen",
+     "3.3.4(4)": "Kernspaltung und Kernfusion beschreiben (zum Beispiel Sterne)",
+     "3.3.4(5)": "Nutzen und Risiken der medizinischen und technischen Anwendung von ionisierender Strahlung und Kernspaltung erläutern und bewerten",
+     "3.3.4(6)": "Gefahren ionisierender Strahlung für die menschliche Gesundheit und Maßnahmen zum Schutz beschreiben (zum Beispiel Abschirmung ionisierender Strahlung, Endlagerung radioaktiver Abfälle)"
+    }
+   },
+   "Ph-10": {
+    "jahrgang": "Klasse 10",
+    "stdProWoche": 2,
+    "quelle": "Schulcurriculum Physik 2026-09, Klasse 10 (Dorn-Bader 9/10)",
+    "bereiche": [
+     {
+      "id": "k",
+      "t": "Mechanik – Kinematik",
+      "curr": 14
+     },
+     {
+      "id": "d",
+      "t": "Mechanik – Dynamik",
+      "curr": 16
+     },
+     {
+      "id": "e",
+      "t": "Mechanik – Erhaltungssätze",
+      "curr": 12
+     },
+     {
+      "id": "w",
+      "t": "Wärmelehre",
+      "curr": 10
+     }
+    ],
+    "bloecke": [
+     {
+      "id": "p10-k1",
+      "b": "k",
+      "t": "Geschwindigkeit, gleichförmige Bewegung, s-t- und v-t-Diagramme",
+      "std": 4,
+      "ref": "Dorn-Bader 9/10 Kap. 6",
+      "inhalt": "v = Δs/Δt, s(t) = v·t",
+      "bp": [
+       "3.3.5.1(1)",
+       "3.3.5.1(2)",
+       "3.3.5.1(3)"
+      ],
+      "done": true
+     },
+     {
+      "id": "p10-k2",
+      "b": "k",
+      "t": "Beschleunigung, gleichmäßig beschleunigte Bewegung",
+      "std": 4,
+      "ref": "Dorn-Bader 9/10 Kap. 6.3",
+      "inhalt": "a = Δv/Δt, s(t) = ½·a·t², v(t) = a·t",
+      "bp": [
+       "3.3.5.1(1)",
+       "3.3.5.1(2)"
+      ],
+      "note": "läuft: K01-S08 (22.10.), Übung K01-AB06 (23.10.)"
+     },
+     {
+      "id": "p10-k3",
+      "b": "k",
+      "t": "Bewegungen aufzeichnen und Diagramme ableiten",
+      "std": 2,
+      "ref": "Dorn-Bader 9/10 Kap. 6",
+      "inhalt": "freier Fall, schiefe Ebene; s-t-, v-t-, a-t-Diagramme",
+      "bp": [
+       "3.3.5.1(3)",
+       "3.3.5.1(4)"
+      ],
+      "note": "Vernier-Praktikum 16.10. gehalten (nur Seite 1 geschafft)"
+     },
+     {
+      "id": "p10-k4",
+      "b": "k",
+      "t": "Zusammengesetzte Bewegungen",
+      "std": 2,
+      "ref": "Dorn-Bader 9/10 Kap. 6",
+      "inhalt": "Bootsfahrt, waagerechter Wurf; vektorieller Charakter der Geschwindigkeit",
+      "bp": [
+       "3.3.5.1(5)"
+      ]
+     },
+     {
+      "id": "p10-k5",
+      "b": "k",
+      "t": "Gleichförmige Kreisbewegung",
+      "std": 2,
+      "ref": "Dorn-Bader 9/10 Kap. 6",
+      "inhalt": "Radius, Bahngeschwindigkeit, Periodendauer, Frequenz, v = 2π·r/T",
+      "bp": [
+       "3.3.5.1(6)"
+      ]
+     },
+     {
+      "id": "p10-d1",
+      "b": "d",
+      "t": "Kräfte zusammensetzen, Kräftegleichgewicht, schiefe Ebene",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 6",
+      "bp": [
+       "3.3.5.2(1)"
+      ]
+     },
+     {
+      "id": "p10-d2",
+      "b": "d",
+      "t": "Newtonsche Prinzipien, F = m·a, Impuls und Kraftstoß",
+      "std": 6,
+      "ref": "Dorn-Bader 9/10 Kap. 6/7",
+      "inhalt": "Trägheit, Wechselwirkung, F = Δp/Δt, p = m·v",
+      "bp": [
+       "3.3.5.2(2)"
+      ],
+      "note": "nach den Herbstferien gemeinsam planen (Kraftstoß)"
+     },
+     {
+      "id": "p10-d3",
+      "b": "d",
+      "t": "Reale und idealisierte Bewegungen",
+      "std": 2,
+      "ref": "Dorn-Bader 9/10 Kap. 6",
+      "inhalt": "freier Fall und Fall mit Luftwiderstand",
+      "bp": [
+       "3.3.5.2(3)"
+      ]
+     },
+     {
+      "id": "p10-d4",
+      "b": "d",
+      "t": "Waagerechter Wurf (dynamisch)",
+      "std": 2,
+      "ref": "Dorn-Bader 9/10 Kap. 6",
+      "bp": [
+       "3.3.5.2(4)"
+      ]
+     },
+     {
+      "id": "p10-d5",
+      "b": "d",
+      "t": "Zentripetalkraft",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 6",
+      "inhalt": "F_Z = m·v²/r",
+      "bp": [
+       "3.3.5.2(5)"
+      ]
+     },
+     {
+      "id": "p10-e1",
+      "b": "e",
+      "t": "Energieformen, Energieübertragung, ΔE = F·Δs",
+      "std": 4,
+      "ref": "Dorn-Bader 9/10 Kap. 7",
+      "inhalt": "E_kin, E_Lage, E_Spann, Nullniveau",
+      "bp": [
+       "3.3.5.3(1)",
+       "3.3.5.3(2)",
+       "3.3.5.3(3)"
+      ]
+     },
+     {
+      "id": "p10-e2",
+      "b": "e",
+      "t": "Energieerhaltungssatz der Mechanik",
+      "std": 3,
+      "ref": "Dorn-Bader 9/10 Kap. 7",
+      "inhalt": "Energiebilanz mit geeigneten Zuständen",
+      "bp": [
+       "3.3.5.3(4)"
+      ]
+     },
+     {
+      "id": "p10-e3",
+      "b": "e",
+      "t": "Impuls und Impulserhaltung",
+      "std": 5,
+      "ref": "Dorn-Bader 9/10 Kap. 7",
+      "inhalt": "inelastischer Stoß, Rückstoßprinzip",
+      "bp": [
+       "3.3.5.3(5)",
+       "3.3.5.3(6)"
+      ]
+     },
+     {
+      "id": "p10-w1",
+      "b": "w",
+      "t": "Treibhauseffekt (natürlich und anthropogen)",
+      "std": 4,
+      "ref": "Dorn-Bader 9/10 Kap. 2/3",
+      "inhalt": "Strahlungsbilanz der Erde, Treibhausgase",
+      "bp": [
+       "3.3.3(7)"
+      ]
+     },
+     {
+      "id": "p10-w2",
+      "b": "w",
+      "t": "Auswirkungen auf die Klimaentwicklung",
+      "std": 2,
+      "ref": "Dorn-Bader 9/10 Kap. 2/3",
+      "inhalt": "Diagramme, Szenarien, Prognosen",
+      "bp": [
+       "3.3.3(8)"
+      ]
+     },
+     {
+      "id": "p10-w3",
+      "b": "w",
+      "t": "Mit Energie sorgsam und effizient umgehen",
+      "std": 2,
+      "ref": "Dorn-Bader 9/10 Kap. 3",
+      "inhalt": "Klimaschutz, Nachhaltigkeit, Ökonomie",
+      "bp": [
+       "3.3.3(9)"
+      ]
+     },
+     {
+      "id": "p10-w4",
+      "b": "w",
+      "t": "Energieversorgung vergleichen und bewerten",
+      "std": 2,
+      "ref": "Dorn-Bader 9/10 Kap. 3",
+      "inhalt": "fossile Brennstoffe, Kernenergie, Wind, Sonne",
+      "bp": [
+       "3.3.3(10)"
+      ]
+     }
+    ],
+    "bp": {
+     "3.3.5.1(1)": "die Geschwindigkeit als Änderungsrate des Ortes (v = Δs/Δt) und die Beschleunigung als Änderungsrate der Geschwindigkeit (a = Δv/Δt) erklären und berechnen",
+     "3.3.5.1(2)": "geradlinig gleichförmige (s(t) = v⋅t, v = konstant) sowie geradlinig gleichmäßig beschleunigte Bewegungen (s(t) = ½⋅a⋅t2, v(t) = a⋅t, a = konstant) verbal und rechnerisch beschreiben (Zeitpunkt, Ort, Geschwindigkeit, Beschleunigung)",
+     "3.3.5.1(3)": "Bewegungsabläufe experimentell aufzeichnen (zum Beispiel freier Fall, schiefe Ebene), die Messwerte in Diagrammen darstellen und diese Diagramme interpretieren (s-t-Diagramm, v-t-Diagramm, a-t-Diagramm)",
+     "3.3.5.1(4)": "aus einem vorgegebenen Bewegungsdiagramm die jeweils anderen Bewegungsdiagramme ableiten (an eine quantitative Ableitung von s-t-Diagrammen aus a-t-Diagrammen ist nicht gedacht)",
+     "3.3.5.1(5)": "zusammengesetzte Bewegungen beschreiben (zum Beispiel Bootsfahrt über einen Fluss, waagerechter Wurf) und daran den vektoriellen Charakter der Geschwindigkeit erläutern",
+     "3.3.5.1(6)": "gleichförmige Kreisbewegungen untersuchen und beschreiben (Radius, Bahngeschwindigkeit, Periodendauer, Frequenz, v = 2⋅π⋅r/T)",
+     "3.3.5.2(1)": "das Zusammenwirken beliebig gerichteter Kräfte auf einen Körper beschreiben, dabei gegebenenfalls ein Kräftegleichgewicht oder die resultierende Kraft erkennen (unter anderem schiefe Ebene)",
+     "3.3.5.2(2)": "Bewegungsabläufe beschreiben und erklären. Dazu wenden sie die Newton'schen Prinzipien der Mechanik an und beschreiben sie auch mithilfe des Impulses (Trägheitsprinzip, F = m⋅a und F = Δp/Δt, Wechselwirkungsprinzip, p = m⋅v, Impulserhaltungssatz)",
+     "3.3.5.2(3)": "die Unterschiede zwischen realen und idealisierten Bewegungen erläutern (unter anderem freier Fall und Fall mit Luftwiderstand)",
+     "3.3.5.2(4)": "zusammengesetzte Bewegungen mithilfe der Newton'schen Prinzipien erklären (unter anderem waagerechter Wurf)",
+     "3.3.5.2(5)": "die gleichförmige Kreisbewegung eines Körpers mithilfe der Zentripetalkraft erklären (FZ = m⋅v2/r)",
+     "3.3.5.3(1)": "Vorgänge aus Alltag und Technik energetisch beschreiben (Energieerhaltung, Energiespeicherung, Energieübertragung, Energieumwandlung)",
+     "3.3.5.3(2)": "beschreiben, dass mechanische Energieübertragungen mit Kraftwirkungen verbunden sind (ΔE = Fs⋅Δs falls Fs = konstant)",
+     "3.3.5.3(3)": "die bei mechanischen Prozessen auftretenden Energieformen quantitativ beschreiben (Ekin = ½⋅m⋅v2, ELage = m⋅g⋅h, ESpann = ½⋅D⋅s2, Nullniveau)",
+     "3.3.5.3(4)": "den Energieerhaltungssatz der Mechanik erläutern und zur quantitativen Beschreibung eines Prozesses anwenden. Dabei wählen sie geeignete Zustände zur Energiebilanzierung aus",
+     "3.3.5.3(5)": "Vorgänge aus Alltag und Technik mithilfe des Impulses beschreiben (p = m⋅v, Impulserhaltung, Impulsübertragung)",
+     "3.3.5.3(6)": "den Impulserhaltungssatz erläutern und zur quantitativen Beschreibung eines Prozesses anwenden (unter anderem inelastischer Stoß, Rückstoßprinzip). Dabei wählen sie geeignete Zustände zur Impulsbilanzierung aus.",
+     "3.3.3(7)": "ihre physikalischen Kenntnisse zur Beschreibung des natürlichen und anthropogenen Treibhauseffektes anwenden (zum Beispiel Strahlungsbilanz der Erde, Treibhausgase)",
+     "3.3.3(8)": "Auswirkungen des Treibhauseffektes auf die Klimaentwicklung beschreiben (zum Beispiel anhand von Diagrammen, Szenarien und Prognosen)",
+     "3.3.3(9)": "ihre physikalischen Kenntnisse anwenden, um mit Energie sorgsam und effizient umzugehen (zum Beispiel Klimaschutz, Nachhaltigkeit, Ökonomie)",
+     "3.3.3(10)": "verschiedene Arten der Energieversorgung unter physikalischen, ökologischen, ökonomischen und gesellschaftlichen Aspekten vergleichen und bewerten (zum Beispiel fossile Brennstoffe, Kernenergie, Windenergie, Sonnenenergie)"
+    }
+   },
+   "M-05": {
+    "jahrgang": "Klasse 5",
+    "stdProWoche": 5,
+    "quelle": "Lambacher Schweizer 5 (Kapitel I bis VII), Bildungsplan Mathematik Klassen 5/6 (V2 2024); Stunden von Claude aus den Buchkapiteln verteilt",
+    "bereiche": [
+     {
+      "id": "KI",
+      "t": "Kapitel I: Die natürlichen Zahlen",
+      "curr": null,
+      "seiten": "S. 4–37"
+     },
+     {
+      "id": "KII",
+      "t": "Kapitel II: Messen",
+      "curr": null,
+      "seiten": "S. 38–65"
+     },
+     {
+      "id": "KIII",
+      "t": "Kapitel III: Figuren und Körper",
+      "curr": null,
+      "seiten": "S. 66–97"
+     },
+     {
+      "id": "KIV",
+      "t": "Kapitel IV: Rechengesetze",
+      "curr": null,
+      "seiten": "S. 98–125"
+     },
+     {
+      "id": "KV",
+      "t": "Kapitel V: Ganze Zahlen: Addieren und Subtrahieren",
+      "curr": null,
+      "seiten": "S. 126–155"
+     },
+     {
+      "id": "KVI",
+      "t": "Kapitel VI: Flächeninhalte und Rauminhalte",
+      "curr": null,
+      "seiten": "S. 156–189"
+     },
+     {
+      "id": "KVII",
+      "t": "Kapitel VII: Ganze Zahlen: Multiplizieren und Dividieren",
+      "curr": null,
+      "seiten": "S. 190–207"
+     }
+    ],
+    "bloecke": [
+     {
+      "id": "m-I-a",
+      "b": "KI",
+      "t": "Kapitelauftakt",
+      "std": 1,
+      "ref": "S. 4–5",
+      "bp": [
+       "3.1.1(12)"
+      ],
+      "done": true
+     },
+     {
+      "id": "m-I-1",
+      "b": "KI",
+      "t": "1 Der Zahlenstrahl: größer und kleiner",
+      "std": 2,
+      "ref": "S. 6–8",
+      "bp": [
+       "3.1.1(7)"
+      ],
+      "done": true
+     },
+     {
+      "id": "m-I-2",
+      "b": "KI",
+      "t": "2 Das Zehnersystem, Runden von Zahlen",
+      "std": 3,
+      "ref": "S. 9–12",
+      "bp": [
+       "3.1.1(1)",
+       "3.1.1(2)",
+       "3.1.1(19)",
+       "3.1.1(21)"
+      ],
+      "done": true
+     },
+     {
+      "id": "m-I-3",
+      "b": "KI",
+      "t": "3 Addieren",
+      "std": 3,
+      "ref": "S. 13–16",
+      "bp": [
+       "3.1.1(13)",
+       "3.1.1(24)",
+       "3.1.1(22)"
+      ],
+      "done": true
+     },
+     {
+      "id": "m-I-4",
+      "b": "KI",
+      "t": "4 Subtrahieren",
+      "std": 3,
+      "ref": "S. 17–20",
+      "bp": [
+       "3.1.1(13)",
+       "3.1.1(24)",
+       "3.1.1(22)"
+      ],
+      "done": true
+     },
+     {
+      "id": "m-I-5",
+      "b": "KI",
+      "t": "5 Multiplizieren",
+      "std": 3,
+      "ref": "S. 21–24",
+      "bp": [
+       "3.1.1(13)",
+       "3.1.1(24)"
+      ],
+      "done": true
+     },
+     {
+      "id": "m-I-6",
+      "b": "KI",
+      "t": "6 Dividieren",
+      "std": 2,
+      "ref": "S. 25–27",
+      "bp": [
+       "3.1.1(13)",
+       "3.1.1(22)"
+      ],
+      "done": true
+     },
+     {
+      "id": "m-I-7",
+      "b": "KI",
+      "t": "7 Schriftliches Dividieren",
+      "std": 3,
+      "ref": "S. 28–30",
+      "bp": [
+       "3.1.1(13)",
+       "3.1.1(22)"
+      ],
+      "done": true
+     },
+     {
+      "id": "m-I-8",
+      "b": "KI",
+      "t": "8 Römische Zahlzeichen",
+      "std": 2,
+      "ref": "S. 31–32",
+      "bp": [
+       "3.1.1(1)"
+      ],
+      "note": "geplant Di 20.10."
+     },
+     {
+      "id": "m-I-9",
+      "b": "KI",
+      "t": "9 Das Zweiersystem",
+      "std": 2,
+      "ref": "S. 33–34",
+      "bp": [
+       "3.1.1(1)"
+      ],
+      "note": "geplant Di 20.10./Do 22.10."
+     },
+     {
+      "id": "m-I-t",
+      "b": "KI",
+      "t": "Training",
+      "std": 2,
+      "ref": "S. 35",
+      "bp": [
+       "3.1.1(12)",
+       "3.1.1(13)",
+       "3.1.1(22)"
+      ],
+      "note": "Training Grundrechenarten bereits 15.10. gehalten; Buch-Training nach den Ferien"
+     },
+     {
+      "id": "m-I-r",
+      "b": "KI",
+      "t": "Rückblick",
+      "std": 1,
+      "ref": "S. 36"
+     },
+     {
+      "id": "m-I-z",
+      "b": "KI",
+      "t": "Test",
+      "std": 2,
+      "ref": "S. 37",
+      "bp": [
+       "3.1.1(13)"
+      ],
+      "note": "nach den Herbstferien"
+     },
+     {
+      "id": "m-II-a",
+      "b": "KII",
+      "t": "Kapitelauftakt",
+      "std": 1,
+      "ref": "S. 38–39"
+     },
+     {
+      "id": "m-II-1",
+      "b": "KII",
+      "t": "1 Messen mit dem Meterstab",
+      "std": 2,
+      "ref": "S. 40–42",
+      "bp": [
+       "3.1.2(1)",
+       "3.1.2(3)",
+       "3.1.2(4)",
+       "3.1.2(5)",
+       "3.1.2(6)"
+      ]
+     },
+     {
+      "id": "m-II-2",
+      "b": "KII",
+      "t": "2 Rechnen mit Größen",
+      "std": 3,
+      "ref": "S. 43–45",
+      "bp": [
+       "3.1.2(5)",
+       "3.1.2(8)"
+      ]
+     },
+     {
+      "id": "m-II-3",
+      "b": "KII",
+      "t": "3 Messen mit der Waage",
+      "std": 3,
+      "ref": "S. 46–48",
+      "bp": [
+       "3.1.2(2)",
+       "3.1.2(5)",
+       "3.1.2(6)"
+      ]
+     },
+     {
+      "id": "m-II-4",
+      "b": "KII",
+      "t": "4 Messen mit der Uhr",
+      "std": 3,
+      "ref": "S. 49–52",
+      "bp": [
+       "3.1.2(2)",
+       "3.1.2(5)"
+      ]
+     },
+     {
+      "id": "m-II-5",
+      "b": "KII",
+      "t": "5 Rechnen mit Geld",
+      "std": 2,
+      "ref": "S. 53–55",
+      "bp": [
+       "3.1.2(5)",
+       "3.1.2(8)"
+      ]
+     },
+     {
+      "id": "m-II-6",
+      "b": "KII",
+      "t": "6 Diagramme",
+      "std": 3,
+      "ref": "S. 56–59",
+      "bp": [
+       "3.1.5(3)",
+       "3.1.5(5)",
+       "3.1.5(8)"
+      ]
+     },
+     {
+      "id": "m-II-7",
+      "b": "KII",
+      "t": "7 Maßstab",
+      "std": 2,
+      "ref": "S. 60–62",
+      "bp": [
+       "3.1.4(7)",
+       "3.1.4(8)"
+      ]
+     },
+     {
+      "id": "m-II-t",
+      "b": "KII",
+      "t": "Training",
+      "std": 1,
+      "ref": "S. 63",
+      "bp": [
+       "3.1.2(8)"
+      ]
+     },
+     {
+      "id": "m-II-r",
+      "b": "KII",
+      "t": "Rückblick",
+      "std": 1,
+      "ref": "S. 64"
+     },
+     {
+      "id": "m-II-z",
+      "b": "KII",
+      "t": "Test",
+      "std": 2,
+      "ref": "S. 65",
+      "bp": [
+       "3.1.2(5)"
+      ]
+     },
+     {
+      "id": "m-III-a",
+      "b": "KIII",
+      "t": "Kapitelauftakt",
+      "std": 1,
+      "ref": "S. 66–67"
+     },
+     {
+      "id": "m-III-1",
+      "b": "KIII",
+      "t": "1 Achsensymmetrie, orthogonale Geraden",
+      "std": 3,
+      "ref": "S. 68–71",
+      "bp": [
+       "3.1.3(1)",
+       "3.1.3(4)",
+       "3.1.3(10)",
+       "3.1.3(13)"
+      ]
+     },
+     {
+      "id": "m-III-2",
+      "b": "KIII",
+      "t": "2 Vierecke, parallele Geraden",
+      "std": 3,
+      "ref": "S. 72–75",
+      "bp": [
+       "3.1.3(1)",
+       "3.1.3(6)",
+       "3.1.3(10)",
+       "3.1.3(11)"
+      ]
+     },
+     {
+      "id": "m-III-3",
+      "b": "KIII",
+      "t": "3 Das Koordinatensystem",
+      "std": 3,
+      "ref": "S. 76–78",
+      "bp": [
+       "3.1.3(12)",
+       "3.1.4(3)"
+      ]
+     },
+     {
+      "id": "m-III-4",
+      "b": "KIII",
+      "t": "4 Kreise",
+      "std": 3,
+      "ref": "S. 79–81",
+      "bp": [
+       "3.1.3(6)",
+       "3.1.3(8)",
+       "3.1.3(9)"
+      ]
+     },
+     {
+      "id": "m-III-5",
+      "b": "KIII",
+      "t": "5 Punktsymmetrische Figuren",
+      "std": 2,
+      "ref": "S. 82–84",
+      "bp": [
+       "3.1.3(4)",
+       "3.1.3(13)"
+      ]
+     },
+     {
+      "id": "m-III-6",
+      "b": "KIII",
+      "t": "6 Quader",
+      "std": 2,
+      "ref": "S. 85–87",
+      "bp": [
+       "3.1.3(7)",
+       "3.1.3(14)",
+       "3.1.3(15)"
+      ]
+     },
+     {
+      "id": "m-III-7",
+      "b": "KIII",
+      "t": "7 Schrägbilder",
+      "std": 2,
+      "ref": "S. 88–90",
+      "bp": [
+       "3.1.3(14)",
+       "3.1.3(15)"
+      ]
+     },
+     {
+      "id": "m-III-8",
+      "b": "KIII",
+      "t": "8 Prisma, Zylinder, Pyramide, Kegel",
+      "std": 2,
+      "ref": "S. 91–94",
+      "bp": [
+       "3.1.3(7)",
+       "3.1.3(15)"
+      ]
+     },
+     {
+      "id": "m-III-t",
+      "b": "KIII",
+      "t": "Training",
+      "std": 2,
+      "ref": "S. 95",
+      "bp": [
+       "3.1.3(8)"
+      ]
+     },
+     {
+      "id": "m-III-r",
+      "b": "KIII",
+      "t": "Rückblick",
+      "std": 1,
+      "ref": "S. 96"
+     },
+     {
+      "id": "m-III-z",
+      "b": "KIII",
+      "t": "Test",
+      "std": 2,
+      "ref": "S. 97",
+      "bp": [
+       "3.1.3(8)"
+      ]
+     },
+     {
+      "id": "m-IV-a",
+      "b": "KIV",
+      "t": "Kapitelauftakt",
+      "std": 1,
+      "ref": "S. 98–99"
+     },
+     {
+      "id": "m-IV-1",
+      "b": "KIV",
+      "t": "1 Mehrgliedrige Rechenausdrücke, Klammern",
+      "std": 3,
+      "ref": "S. 100–102",
+      "bp": [
+       "3.1.1(24)",
+       "3.1.1(26)",
+       "3.1.1(27)"
+      ]
+     },
+     {
+      "id": "m-IV-2",
+      "b": "KIV",
+      "t": "2 Summen und Differenzen",
+      "std": 2,
+      "ref": "S. 103–105",
+      "bp": [
+       "3.1.1(23)",
+       "3.1.1(25)"
+      ]
+     },
+     {
+      "id": "m-IV-3",
+      "b": "KIV",
+      "t": "3 Punkt-vor-Strich-Regel",
+      "std": 2,
+      "ref": "S. 106–108",
+      "bp": [
+       "3.1.1(26)",
+       "3.1.1(27)"
+      ]
+     },
+     {
+      "id": "m-IV-4",
+      "b": "KIV",
+      "t": "4 Ausmultiplizieren, Ausklammern",
+      "std": 3,
+      "ref": "S. 109–112",
+      "bp": [
+       "3.1.1(25)"
+      ]
+     },
+     {
+      "id": "m-IV-5",
+      "b": "KIV",
+      "t": "5 Potenzen",
+      "std": 2,
+      "ref": "S. 113–115",
+      "bp": [
+       "3.1.1(15)",
+       "3.1.1(21)"
+      ]
+     },
+     {
+      "id": "m-IV-6",
+      "b": "KIV",
+      "t": "6 Teilbarkeitsregeln",
+      "std": 3,
+      "ref": "S. 116–119",
+      "bp": [
+       "3.1.1(3)"
+      ]
+     },
+     {
+      "id": "m-IV-7",
+      "b": "KIV",
+      "t": "7 Primzahlen",
+      "std": 2,
+      "ref": "S. 120–122",
+      "bp": [
+       "3.1.1(3)"
+      ]
+     },
+     {
+      "id": "m-IV-t",
+      "b": "KIV",
+      "t": "Training",
+      "std": 2,
+      "ref": "S. 123",
+      "bp": [
+       "3.1.1(25)",
+       "3.1.1(26)"
+      ]
+     },
+     {
+      "id": "m-IV-r",
+      "b": "KIV",
+      "t": "Rückblick",
+      "std": 1,
+      "ref": "S. 124"
+     },
+     {
+      "id": "m-IV-z",
+      "b": "KIV",
+      "t": "Test",
+      "std": 2,
+      "ref": "S. 125",
+      "bp": [
+       "3.1.1(26)"
+      ]
+     },
+     {
+      "id": "m-V-a",
+      "b": "KV",
+      "t": "Kapitelauftakt",
+      "std": 1,
+      "ref": "S. 126–127"
+     },
+     {
+      "id": "m-V-1",
+      "b": "KV",
+      "t": "1 Negative Zahlen",
+      "std": 3,
+      "ref": "S. 128–131",
+      "bp": [
+       "3.1.1(4)",
+       "3.1.1(7)"
+      ]
+     },
+     {
+      "id": "m-V-2",
+      "b": "KV",
+      "t": "2 Anordnung und Betrag",
+      "std": 3,
+      "ref": "S. 132–134",
+      "bp": [
+       "3.1.1(7)",
+       "3.1.1(8)"
+      ]
+     },
+     {
+      "id": "m-V-3",
+      "b": "KV",
+      "t": "3 Vereinfachte Schreibweise",
+      "std": 2,
+      "ref": "S. 135–137",
+      "bp": [
+       "3.1.1(4)",
+       "3.1.1(24)"
+      ]
+     },
+     {
+      "id": "m-V-4",
+      "b": "KV",
+      "t": "4 Addieren von Zahlen mit gleichem Vorzeichen",
+      "std": 2,
+      "ref": "S. 138–140",
+      "bp": [
+       "3.1.1(18)"
+      ]
+     },
+     {
+      "id": "m-V-5",
+      "b": "KV",
+      "t": "5 Addieren von Zahlen mit beliebigem Vorzeichen",
+      "std": 3,
+      "ref": "S. 141–144",
+      "bp": [
+       "3.1.1(18)"
+      ]
+     },
+     {
+      "id": "m-V-6",
+      "b": "KV",
+      "t": "6 Subtrahieren von ganzen Zahlen",
+      "std": 3,
+      "ref": "S. 145–148",
+      "bp": [
+       "3.1.1(18)"
+      ]
+     },
+     {
+      "id": "m-V-7",
+      "b": "KV",
+      "t": "7 Mehrgliedrige Summen",
+      "std": 3,
+      "ref": "S. 149–152",
+      "bp": [
+       "3.1.1(18)",
+       "3.1.1(25)"
+      ]
+     },
+     {
+      "id": "m-V-t",
+      "b": "KV",
+      "t": "Training",
+      "std": 2,
+      "ref": "S. 153",
+      "bp": [
+       "3.1.1(18)"
+      ]
+     },
+     {
+      "id": "m-V-r",
+      "b": "KV",
+      "t": "Rückblick",
+      "std": 1,
+      "ref": "S. 154"
+     },
+     {
+      "id": "m-V-z",
+      "b": "KV",
+      "t": "Test",
+      "std": 2,
+      "ref": "S. 155",
+      "bp": [
+       "3.1.1(18)"
+      ]
+     },
+     {
+      "id": "m-VI-a",
+      "b": "KVI",
+      "t": "Kapitelauftakt",
+      "std": 1,
+      "ref": "S. 156–157"
+     },
+     {
+      "id": "m-VI-1",
+      "b": "KVI",
+      "t": "1 Flächeninhalte messen",
+      "std": 3,
+      "ref": "S. 158–160",
+      "bp": [
+       "3.1.2(1)",
+       "3.1.2(2)",
+       "3.1.2(11)"
+      ]
+     },
+     {
+      "id": "m-VI-2",
+      "b": "KVI",
+      "t": "2 Flächeneinheiten",
+      "std": 3,
+      "ref": "S. 161–164",
+      "bp": [
+       "3.1.2(5)"
+      ]
+     },
+     {
+      "id": "m-VI-3",
+      "b": "KVI",
+      "t": "3 Flächeninhalte von Rechtecken",
+      "std": 3,
+      "ref": "S. 165–168",
+      "bp": [
+       "3.1.2(11)",
+       "3.1.2(13)"
+      ]
+     },
+     {
+      "id": "m-VI-4",
+      "b": "KVI",
+      "t": "4 Umfang von Figuren",
+      "std": 3,
+      "ref": "S. 169–172",
+      "bp": [
+       "3.1.2(9)",
+       "3.1.4(6)"
+      ]
+     },
+     {
+      "id": "m-VI-5",
+      "b": "KVI",
+      "t": "5 Rauminhalte messen",
+      "std": 2,
+      "ref": "S. 173–175",
+      "bp": [
+       "3.1.2(2)",
+       "3.1.2(14)"
+      ]
+     },
+     {
+      "id": "m-VI-6",
+      "b": "KVI",
+      "t": "6 Volumeneinheiten",
+      "std": 3,
+      "ref": "S. 176–179",
+      "bp": [
+       "3.1.2(5)",
+       "3.1.2(8)"
+      ]
+     },
+     {
+      "id": "m-VI-7",
+      "b": "KVI",
+      "t": "7 Rauminhalte von Quadern",
+      "std": 3,
+      "ref": "S. 180–183",
+      "bp": [
+       "3.1.2(14)",
+       "3.1.2(15)"
+      ]
+     },
+     {
+      "id": "m-VI-8",
+      "b": "KVI",
+      "t": "8 Oberflächen von Körpern",
+      "std": 2,
+      "ref": "S. 184–186",
+      "bp": [
+       "3.1.2(15)"
+      ]
+     },
+     {
+      "id": "m-VI-t",
+      "b": "KVI",
+      "t": "Training",
+      "std": 2,
+      "ref": "S. 187",
+      "bp": [
+       "3.1.2(13)",
+       "3.1.2(15)"
+      ]
+     },
+     {
+      "id": "m-VI-r",
+      "b": "KVI",
+      "t": "Rückblick",
+      "std": 1,
+      "ref": "S. 188"
+     },
+     {
+      "id": "m-VI-z",
+      "b": "KVI",
+      "t": "Test",
+      "std": 2,
+      "ref": "S. 189",
+      "bp": [
+       "3.1.2(15)"
+      ]
+     },
+     {
+      "id": "m-VII-a",
+      "b": "KVII",
+      "t": "Kapitelauftakt",
+      "std": 1,
+      "ref": "S. 190–191"
+     },
+     {
+      "id": "m-VII-1",
+      "b": "KVII",
+      "t": "1 Multiplizieren ganzer Zahlen",
+      "std": 3,
+      "ref": "S. 192–195",
+      "bp": [
+       "3.1.1(18)"
+      ]
+     },
+     {
+      "id": "m-VII-2",
+      "b": "KVII",
+      "t": "2 Dividieren ganzer Zahlen",
+      "std": 2,
+      "ref": "S. 196–198",
+      "bp": [
+       "3.1.1(18)",
+       "3.1.1(22)"
+      ]
+     },
+     {
+      "id": "m-VII-3",
+      "b": "KVII",
+      "t": "3 Rechengesetze und Rechenvorteile",
+      "std": 2,
+      "ref": "S. 199–201",
+      "bp": [
+       "3.1.1(25)",
+       "3.1.1(26)"
+      ]
+     },
+     {
+      "id": "m-VII-4",
+      "b": "KVII",
+      "t": "4 Plusklammerregel, Minusklammerregel",
+      "std": 2,
+      "ref": "S. 202–204",
+      "bp": [
+       "3.1.1(25)",
+       "3.1.1(26)"
+      ]
+     },
+     {
+      "id": "m-VII-t",
+      "b": "KVII",
+      "t": "Training",
+      "std": 2,
+      "ref": "S. 205",
+      "bp": [
+       "3.1.1(18)"
+      ]
+     },
+     {
+      "id": "m-VII-r",
+      "b": "KVII",
+      "t": "Rückblick",
+      "std": 1,
+      "ref": "S. 206"
+     },
+     {
+      "id": "m-VII-z",
+      "b": "KVII",
+      "t": "Test",
+      "std": 2,
+      "ref": "S. 207",
+      "bp": [
+       "3.1.1(18)"
+      ]
+     }
+    ],
+    "bp": {
+     "3.1.1(1)": "die Prinzipien des dezimalen Stellenwertsystems im Vergleich zu einem anderen Zahlensystem beschreiben",
+     "3.1.1(2)": "natürliche Zahlen bis zur Größenordnung Billion lesen und nach Hören in Ziffern schreiben",
+     "3.1.1(3)": "Eigenschaften natürlicher Zahlen untersuchen (einfache Primzahlen erkennen, Primfaktoren bestimmen, Teilbarkeitsregeln für 2, 3, 5, 6, 9, 10 anwenden)",
+     "3.1.1(4)": "ganze Zahlen zur Beschreibung von Realsituationen verwenden, insbesondere unter den Aspekten Skala und Änderung",
+     "3.1.1(7)": "rationale Zahlen und Punkte auf der Zahlengeraden einander zuordnen und rationale Zahlen vergleichen und anordnen",
+     "3.1.1(8)": "den Betrag einer Zahl angeben",
+     "3.1.1(12)": "einfache Rechnungen sicher im Kopf durchführen, unter anderem um Ergebnisse überschlägig zu überprüfen",
+     "3.1.1(13)": "natürliche Zahlen und positive Dezimalzahlen schriftlich addieren, subtrahieren, multiplizieren (dabei ein Faktor maximal 3-stellig) und dividieren (Divisor maximal 2-stellig)",
+     "3.1.1(15)": "Potenzen als Kurzschreibweise eines Produkts erklären und verwenden sowie die Quadratzahlen wiedergeben und erkennen",
+     "3.1.1(18)": "rationale Zahlen in Bruch- und in Dezimaldarstellung addieren, subtrahieren, multiplizieren, dividieren",
+     "3.1.1(19)": "Zahlenwerte und Größenangaben situationsgerecht runden und gerundete Angaben interpretieren",
+     "3.1.1(21)": "natürliche Zahlen in Zehnerpotenzschreibweise angeben",
+     "3.1.1(22)": "Rechnungen unter Verwendung der Umkehroperation überprüfen",
+     "3.1.1(23)": "Sachsituationen (auch aus der Geometrie und bei Zahlenmustern) durch Zahlterme beschreiben",
+     "3.1.1(24)": "Fachbegriffe für Rechenarten, Rechenoperationen und Rechenoperanden verwenden (Summand, Faktor, Minuend, Subtrahend, Dividend, Divisor, Basis, Exponent)",
+     "3.1.1(25)": "bei der Berechnung von Zahltermen Rechengesetze für Rechenvorteile nutzen",
+     "3.1.1(26)": "den Wert von Zahltermen mit Klammern in einfachen Fällen berechnen",
+     "3.1.1(27)": "einfache und zusammengesetzte Zahlterme mit den Fachbegriffen Summe, Differenz, Produkt, Quotient, Potenz beschreiben",
+     "3.1.2(1)": "Messvorgänge und die Verwendung von Einheiten erläutern",
+     "3.1.2(2)": "in ihrem Umfeld Längen, Flächeninhalte, Volumina, Massen, Zeitspannen messen",
+     "3.1.2(3)": "Größenangaben durch Maßzahl und Einheit darstellen",
+     "3.1.2(4)": "die Bedeutung gängiger Vorsilben wie milli, centi, dezi, kilo, Mega erklären",
+     "3.1.2(5)": "Einheiten für Masse, Zeit(spanne), Geld, Länge, Flächeninhalt und Volumen verwenden und umwandeln",
+     "3.1.2(6)": "alltagsbezogene Repräsentanten als Schätzhilfe für Größenangaben verwenden, auch zur Plausibilitätsprüfung",
+     "3.1.2(8)": "mit Größenangaben rechnen und dabei Einheiten korrekt anwenden",
+     "3.1.2(9)": "den Umfang von Rechteck, Quadrat, Dreieck, Trapez, Parallelogramm und Kreis sowie zusammengesetzter Figuren bestimmen",
+     "3.1.2(11)": "die Formel für den Flächeninhalt eines Rechtecks mit dem Grundprinzip des Messens erklären",
+     "3.1.2(13)": "den Flächeninhalt von Quadrat, Rechteck, Parallelogramm, Trapez, Dreieck und Kreis berechnen und zusammengesetzte Figuren bestimmen",
+     "3.1.2(14)": "die Formel für das Volumen eines Quaders mit dem Grundprinzip des Messens erklären",
+     "3.1.2(15)": "den Oberflächeninhalt und das Volumen von Würfeln und Quadern und daraus zusammengesetzten Körpern bestimmen",
+     "3.1.3(1)": "Lagebeziehungen von Strecken und Geraden (parallel, senkrecht) mithilfe eines Geodreiecks untersuchen",
+     "3.1.3(4)": "Achsensymmetrie und Punktsymmetrie bei Figuren erkennen und die Symmetrieachse beziehungsweise das Symmetriezentrum identifizieren",
+     "3.1.3(6)": "Kreise und Vierecke (Quadrat, Rechteck, Raute, Drachenviereck, Parallelogramm, Trapez) identifizieren und deren spezielle Eigenschaften beschreiben",
+     "3.1.3(7)": "vorgegebene Körper (Quader, Würfel, Prisma, Zylinder, Pyramide, Kegel und Kugel) erkennen und benennen",
+     "3.1.3(8)": "sicher mit Geodreieck, Lineal und Zirkel umgehen und damit geometrische Objekte zeichnen",
+     "3.1.3(9)": "Kreise bei vorgegebenem Radius oder Durchmesser mithilfe eines Zirkels zeichnen",
+     "3.1.3(10)": "Orthogonalen, Parallelen und Winkel vorgegebener Winkelweite mithilfe eines Geodreiecks zeichnen",
+     "3.1.3(11)": "den Abstand zwischen Punkt und Gerade bestimmen, bei Dreiecken Höhen einzeichnen sowie den Abstand zwischen Parallelen bestimmen",
+     "3.1.3(12)": "geometrische Objekte in selbstständig skalierten zweidimensionalen kartesischen Koordinatensystemen darstellen",
+     "3.1.3(13)": "Achsenspiegelungen und Punktspiegelungen durchführen",
+     "3.1.3(14)": "Netze, Schrägbilder, Grund- und Aufrisse von Quadern und Würfeln zeichnen",
+     "3.1.3(15)": "Zusammenhänge zwischen den Darstellungsformen Netz, Schrägbild und Modell bei geraden Körpern herstellen",
+     "3.1.4(3)": "Punkte in ein Koordinatensystem eintragen und die Koordinaten von Punkten ablesen",
+     "3.1.4(6)": "den dynamischen Zusammenhang zwischen Größen in einfachen Situationen (Länge – Umfang – Flächeninhalt – Volumen) anschaulich erläutern",
+     "3.1.4(7)": "Originallängen, Bildlängen oder Maßstäbe im Zusammenhang mit maßstäblichen Angaben berechnen",
+     "3.1.4(8)": "maßstäbliche Zeichnungen anfertigen, auch mit selbstgewähltem, geeignetem Maßstab",
+     "3.1.5(3)": "Daten graphisch darstellen (Balken-, Säulen-, Streifen-, Kreisdiagramm), auch unter Verwendung von Tabellenkalkulation",
+     "3.1.5(5)": "Daten aus vorgegebenen Sekundärquellen (zum Beispiel Texten, Diagrammen, bildlichen Darstellungen) entnehmen und interpretieren",
+     "3.1.5(8)": "statistische Darstellungen hinsichtlich ihrer Eignung und hinsichtlich Irreführung beurteilen"
+    }
+   },
+   "IuM-05": {
+    "jahrgang": "Klasse 5",
+    "stdProWoche": 1,
+    "quelle": "Stoffverteilung IuM 5/6 (Medien/IuM-05_2026-27), Bildungsplan Basiskurs Medienbildung 2016",
+    "bereiche": [
+     {
+      "id": "c1",
+      "t": "Buchkapitel 1",
+      "curr": null
+     },
+     {
+      "id": "c2",
+      "t": "Buchkapitel 2",
+      "curr": null
+     },
+     {
+      "id": "c3",
+      "t": "Buchkapitel 3",
+      "curr": null
+     },
+     {
+      "id": "c4",
+      "t": "Buchkapitel 4",
+      "curr": null
+     },
+     {
+      "id": "c5",
+      "t": "Buchkapitel 5",
+      "curr": null
+     },
+     {
+      "id": "cg",
+      "t": "Schulcurriculum",
+      "curr": null
+     }
+    ],
+    "bloecke": [
+     {
+      "id": "i-k5-11",
+      "b": "c1",
+      "t": "Was ist ein Medium?",
+      "std": 1,
+      "ref": "Buch 1.1 (S. 6–7)",
+      "inhalt": "Medienbegriff, Medienentwicklung, eigene Medienvorlieben und Freizeitnutzung reflektieren.",
+      "bp": [
+       "3.1.4(1)"
+      ],
+      "done": true
+     },
+     {
+      "id": "i-k5-12",
+      "b": "c1",
+      "t": "Grundlagen digitaler Medien",
+      "std": 1,
+      "ref": "Buch 1.2 (S. 8–9)",
+      "inhalt": "Hardware und Software, EVA-Prinzip, Regeln für den Informatikraum, passende Endgeräte auswählen.",
+      "bp": [
+       "3.1.5(1)"
+      ],
+      "done": true
+     },
+     {
+      "id": "i-k5-13",
+      "b": "c1",
+      "t": "Betriebssystem: Desktop, Dateien, Passwörter",
+      "std": 2,
+      "ref": "Buch 1.3 (S. 10–11)",
+      "inhalt": "Desktop anpassen, Datei-Explorer, Ordnerstruktur, Verknüpfungen, Papierkorb, ZIP-Archive, sichere Passwörter. Hinweis: S. 10/1a (Neustart) im Schulnetz ggf. weglassen. S. 11/5: keine echten Passwörter ins Buch schreiben. Dateien hinter den Mediencodes vorab im Schulnetz testen.",
+      "bp": [
+       "3.1.5(2)"
+      ],
+      "note": "geplant Di 20.10. (Std 4)"
+     },
+     {
+      "id": "i-k5-14",
+      "b": "c1",
+      "t": "Textverarbeitung 1",
+      "std": 1,
+      "ref": "Buch 1.4 (S. 12–13)",
+      "inhalt": "Speichern und Speichern unter, längere Texte, Rechtschreibprüfung, Tastenkombinationen. Hinweis: S. 12/2 (Brief abtippen) gekürzt oder als Differenzierung, Tippgeschwindigkeit ist sehr unterschiedlich. S. 13/4c eignet sich als Hausaufgabe.",
+      "bp": [
+       "3.1.5(3)"
+      ]
+     },
+     {
+      "id": "i-k5-15",
+      "b": "c1",
+      "t": "Textverarbeitung 2: Steckbrief, Drucken, PDF",
+      "std": 2,
+      "ref": "Buch 1.5 (S. 14–15)",
+      "inhalt": "Steckbrief fertigstellen, Tabellen erweitern, Dokumente drucken und vergleichen (Gallery Walk), als PDF weitergeben. Hinweis: Drucker vorher klären. Motivationstext (S. 14) auf Papier vorbereiten lassen. S. 15/4a (PDF-Vor- und Nachteile) als Hausaufgabe möglich.",
+      "bp": [
+       "3.1.5(3)",
+       "3.1.2(1)"
+      ]
+     },
+     {
+      "id": "i-k5-21",
+      "b": "c2",
+      "t": "Webbrowser",
+      "std": 1,
+      "ref": "Buch 2.1 (S. 16–17)",
+      "inhalt": "Browser, URL und Aufbau einer Webseite; gezielt auf Webseiten navigieren.",
+      "bp": [
+       "3.1.1(1)"
+      ]
+     },
+     {
+      "id": "i-k5-22",
+      "b": "c2",
+      "t": "Suchmaschinen",
+      "std": 1,
+      "ref": "Buch 2.2 (S. 18–19)",
+      "inhalt": "Suchmaschinen für Kinder und Erwachsene vergleichen, Suchregeln entwickeln, Behauptungen recherchieren.",
+      "bp": [
+       "3.1.1(1)"
+      ]
+     },
+     {
+      "id": "i-k5-23",
+      "b": "c2",
+      "t": "Bewertung von Informationsquellen",
+      "std": 1,
+      "ref": "Buch 2.3 (S. 20–21)",
+      "inhalt": "Absicht und Vertrauenswürdigkeit realer Webseiten anhand von Kriterien beurteilen.",
+      "bp": [
+       "3.1.1(2)"
+      ]
+     },
+     {
+      "id": "i-k5-24",
+      "b": "c2",
+      "t": "Präsentationsprogramm: Grundfunktionen",
+      "std": 2,
+      "ref": "Buch 2.4 (S. 22–23)",
+      "inhalt": "Präsentation erweitern, Bilder und Tabellen einfügen, Tier-Steckbrief gestalten.",
+      "bp": [
+       "3.1.5(3)",
+       "3.1.2(1)"
+      ]
+     },
+     {
+      "id": "i-k5-25",
+      "b": "c2",
+      "t": "Gestaltung von Präsentationen",
+      "std": 1,
+      "ref": "Buch 2.5 (S. 24–25)",
+      "inhalt": "Präsentationsmodus, übersichtliche Folien, Übergänge und Animationen maßvoll einsetzen.",
+      "bp": [
+       "3.1.2(1)"
+      ]
+     },
+     {
+      "id": "i-k5-31",
+      "b": "c3",
+      "t": "Feedback geben",
+      "std": 1,
+      "ref": "Buch 3.1 (S. 26–27)",
+      "inhalt": "Feedbackregeln formulieren, Rückmeldungen beurteilen, konkrete Verbesserungsvorschläge geben.",
+      "bp": [
+       "3.1.2(3)"
+      ]
+     },
+     {
+      "id": "i-k5-32",
+      "b": "c3",
+      "t": "Präsentieren",
+      "std": 2,
+      "ref": "Buch 3.2 (S. 28–29)",
+      "inhalt": "Vorträge mit Kriterienbogen beobachten, bewerten und konstruktiv rückmelden. Hinweis: Bei 28 bis 30 Kindern reicht eine Stunde nicht für alle Vorträge. Kurzformate oder Gruppenvorträge einplanen.",
+      "bp": [
+       "3.1.2(3)"
+      ]
+     },
+     {
+      "id": "i-k5-33",
+      "b": "c3",
+      "t": "Urheberrecht",
+      "std": 2,
+      "ref": "Buch 3.3 (S. 30–31)",
+      "inhalt": "Geschützte und frei nutzbare Inhalte unterscheiden, Fälle beurteilen, lizenzfreie Bilder recherchieren.",
+      "bp": [
+       "3.1.2(2)"
+      ]
+     },
+     {
+      "id": "i-k5-34",
+      "b": "c3",
+      "t": "Medienproduktion 1: Mindmap",
+      "std": 1,
+      "ref": "Buch 3.4 (S. 32)",
+      "inhalt": "Ein eigenes Medienprodukt mit einer Mindmap zum Lieblingshobby planen, Feedback einholen.",
+      "bp": [
+       "3.1.1(3)",
+       "3.1.2(1)"
+      ]
+     },
+     {
+      "id": "i-k5-35",
+      "b": "c3",
+      "t": "Medienproduktion 2: Storyboard",
+      "std": 1,
+      "ref": "Buch 3.5 (S. 32)",
+      "inhalt": "Aus der Mindmap ein Storyboard entwickeln und anhand von Leitfragen verbessern.",
+      "bp": [
+       "3.1.2(1)"
+      ]
+     },
+     {
+      "id": "i-k5-36",
+      "b": "c3",
+      "t": "Medienproduktion 3: Texten",
+      "std": 1,
+      "ref": "Buch 3.6 (S. 33)",
+      "inhalt": "Sprechtexte schreiben, aufnehmen, durch Partnerfeedback verbessern und ins Storyboard übernehmen.",
+      "bp": [
+       "3.1.2(1)"
+      ]
+     },
+     {
+      "id": "i-k5-37",
+      "b": "c3",
+      "t": "Medienproduktion 4: Umsetzung und Präsentation",
+      "std": 3,
+      "ref": "Buch 3.7 (S. 33)",
+      "inhalt": "Geplante Filmszenen digital umsetzen, speichern, präsentieren und gemeinsam auswerten. Hinweis: Geräte, Aufnahmeorte und Speicherplatz vorab klären. Aufnahmen mit Gesichtern: Recht am eigenen Bild beachten.",
+      "bp": [
+       "3.1.2(1)",
+       "3.1.2(3)"
+      ]
+     },
+     {
+      "id": "i-k5-41",
+      "b": "c4",
+      "t": "Digitale Kommunikation und Klassenchat-Regeln",
+      "std": 2,
+      "ref": "Buch 4.1 (S. 34–35)",
+      "inhalt": "Chatsituationen, Nachrichtenstress, Beleidigungen, Recht am eigenen Bild, Kettenbriefe, Regeln für den Klassenchat.",
+      "bp": [
+       "3.1.3(1)"
+      ]
+     },
+     {
+      "id": "i-k5-43",
+      "b": "c4",
+      "t": "Umgang mit Cybermobbing",
+      "std": 2,
+      "ref": "Buch 4.3 (S. 38–39)",
+      "inhalt": "Cybermobbing erkennen, Folgen und Hilfen diskutieren, Zuschauereffekt verstehen, Handlungswege erproben. Hinweis: Sensibles Thema, Schulsozialarbeit und Klassenleitung einbinden. Anonyme Meldewege zeigen.",
+      "bp": [
+       "3.1.3(1)"
+      ]
+     },
+     {
+      "id": "i-k5-44",
+      "b": "c4",
+      "t": "E-Mail und digitale Zusammenarbeit",
+      "std": 1,
+      "ref": "Buch 4.4 (S. 40–41)",
+      "inhalt": "Eigene Adresse, Aufbau und Netiquette einer E-Mail, digitale Zusammenarbeit praktisch anwenden. Hinweis: Welche Mail- oder Lernplattform nutzt die Schule für Kinder in Klasse 5? Vorher klären.",
+      "bp": [
+       "3.1.3(2)",
+       "3.1.3(3)"
+      ]
+     },
+     {
+      "id": "i-k5-51",
+      "b": "c5",
+      "t": "Eigene Mediennutzung",
+      "std": 1,
+      "ref": "Buch 5.1 (S. 42–43)",
+      "inhalt": "Positive und negative Folgen des Medienkonsums untersuchen, Betroffenen passende Tipps geben.",
+      "bp": [
+       "3.1.4(1)",
+       "3.1.4(2)"
+      ]
+     },
+     {
+      "id": "i-k5-gfs",
+      "b": "cg",
+      "t": "GFS-Vorbereitung",
+      "std": 5,
+      "ref": "Schulcurriculum",
+      "inhalt": "Schulcurriculum (5 Std.): Gleichwertige Feststellung von Schülerleistungen vorbereiten: Thema wählen, recherchieren, Quellen angeben, Folien gestalten, Vortrag üben. Hinweis: Nutzt Inhalte aus Kap. 2.2 bis 2.5 und 3.2 (Bewertungsbogen S. 29). Die Stunden können auch auf andere Termine im Jahr verteilt werden.",
+      "bp": [
+       "3.1.2(1)",
+       "3.1.2(3)"
+      ]
+     }
+    ],
+    "bp": {
+     "3.1.1(1)": "Internetbrowser und Suchmaschinen zur Recherche einsetzen",
+     "3.1.1(2)": "Informationsquellen anhand von Merkmalen in ihrer Qualität einschätzen",
+     "3.1.1(3)": "Informationen weitgehend selbstständig auswählen und strukturieren",
+     "3.1.2(1)": "Ein einfaches digitales Medienprodukt weitgehend selbstständig erstellen und gestalten",
+     "3.1.2(2)": "Urheberrechts- und Datenschutzrichtlinien beachten",
+     "3.1.2(3)": "Das eigene Medienprodukt vorstellen und die Qualität anhand von Kriterien einschätzen",
+     "3.1.3(1)": "Regeln zur Kommunikation im Netz herausarbeiten und sich angemessen verhalten (u. a. Cybermobbing)",
+     "3.1.3(2)": "Einen digitalen Kommunikationsweg (z. B. E-Mail) in den Grundfunktionen anwenden",
+     "3.1.3(3)": "Einen digitalen Kommunikationsweg zur Kooperation in Projekten nutzen",
+     "3.1.4(1)": "Die Motivation für das eigene Medienverhalten beschreiben und die Nutzung bewerten",
+     "3.1.4(2)": "Chancen und Risiken (übermäßiger) Mediennutzung erläutern, Prävention benennen",
+     "3.1.5(1)": "Verhaltensregeln einhalten; Komponenten für Eingabe, Verarbeitung und Ausgabe benennen",
+     "3.1.5(2)": "Im Schulnetz anmelden, zurechtfinden und mit den Grundfunktionen des Betriebssystems arbeiten",
+     "3.1.5(3)": "Elementare Funktionen von Standardprogrammen und Mediengeräten anwenden"
+    }
+   }
+  }
+ },
+ "schuljahr": {
+  "von": "2026-09-14",
+  "bis": "2027-07-28",
+  "hinweis": "Annahme, bitte mit dem Kultusministerium abgleichen"
+ },
+ "wochenplan": {
+  "M-05": {
+   "0": 1,
+   "1": 2,
+   "3": 2
+  },
+  "IuM-05": {
+   "1": 1
+  },
+  "Ph-08": {
+   "0": 1,
+   "4": 1
+  },
+  "Ph-09": {
+   "0": 1,
+   "3": 1
+  },
+  "Ph-10": {
+   "3": 1,
+   "4": 1
+  },
+  "_hinweis": "Regelwoche laut STUNDENPLAN_RT.md; Wochentag 0=Mo. Ph-08 nach 8b (8a: Di, Fr), je Klasse 2 Std."
+ },
+ "kalender": {
+  "basis": [
+   {
+    "id": "b-herbst26",
+    "typ": "ferien",
+    "name": "Herbstferien",
+    "von": "2026-10-26",
+    "bis": "2026-10-30",
+    "f": "",
+    "src": "Vorgabe (laut STAND)"
+   }
+  ]
+ }
+}

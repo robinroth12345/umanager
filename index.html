@@ -1274,7 +1274,9 @@ const ICONS={help:'M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM9.1 9a3 3 0 0 1 5.8
   gear:'M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z',
   chat:'M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z'
 };
-const NAV=[['dash','Übersicht & Klassen','home','Übersicht'],['tools','Bühne','stage'],['sitz','Sitzplan','grid'],['plan','Stundenplan','cal','Stundenplan'],['noten','Notenbuch','book'],['unt','Unterricht','list'],['arbeiten','Tests & Klassenarbeiten','file','Tests & KA'],['check','Checklisten','check','Checklisten'],['sport','Sport','users','Sport'],['eltern','Elterngespräche','chat','Eltern'],['settings','Sicherung & Einstellungen','gear','Einstellungen']];
+const NAV=[['dash','Übersicht & Klassen','home','Übersicht'],['tools','Bühne','stage'],['sitz','Sitzplan','grid'],['plan','Stundenplan','cal','Stundenplan'],['planung','Planung','list','Planung'],['noten','Notenbuch','book'],['unt','Unterricht','list'],['arbeiten','Tests & Klassenarbeiten','file','Tests & KA'],['check','Checklisten','check','Checklisten'],['sport','Sport','users','Sport'],['eltern','Elterngespräche','chat','Eltern'],['settings','Sicherung & Einstellungen','gear','Einstellungen']];
+/* Planung (Jahresübersicht, Stoffverteilung mit Bildungsplan, Kalender): eigenes Modul in planung.js, Daten ohne Schülerdaten in plan.json, Zustand in S.planung (läuft über den normalen Sync mit) */
+let PLJS=null;function loadPlanung(){return window.PLANUNG?Promise.resolve(window.PLANUNG):(PLJS=PLJS||new Promise((ok,no)=>{const e=document.createElement('script');e.src='planung.js';e.onload=()=>ok(window.PLANUNG);e.onerror=()=>{PLJS=null;no(new Error('planung.js nicht ladbar'))};document.head.appendChild(e)}))}
 const EXTRA_TITLES={klassen:'Klassen & Schüler',anw:'Anwesenheit',todo:'Aufgaben & Notizen'};
 const CLASS_VIEWS=['noten','arbeiten','anw','sitz','sport','check'];
 
@@ -1518,7 +1520,9 @@ A.showStudents=id=>{S.ui.cls=id;SCROLLK=true;render()};
 A.pickClass=id=>{S.ui.cls=id;S.ui.exam=null;SEL=null;if(S.ui.view==='sitz')autoRoom(cls());persist();render()};
 A.pickGo=(id,v)=>{const c=S.classes.find(k=>k.id===id);S.ui.cls=id;A.go(v)};
 
-const VIEWS={},AFTER={};var PREVV='';
+const VIEWS={},AFTER={};
+VIEWS.planung=()=>'<div id="planroot" class="muted">Planung wird geladen …</div>';
+AFTER.planung=()=>{const ph=$('#planroot');loadPlanung().then(P=>P.mount(ph,{get:()=>S.planung||null,set:o=>{S.planung=o},save:()=>save()})).catch(e=>{ph.textContent=e.message})};var PREVV='';
 function render(){
   SCHEDC.clear();
   applyTheme();
